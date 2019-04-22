@@ -6,31 +6,31 @@ body {
     color:blue;
 }
 h1 {
-    font-size:18;
+    font-size:20px;
     color: green;
 }
 
 h2 {
-    font-size:14;
-    text-align: center;
-    border-bottom: 1px solid #bbb
+    font-size:18px;
+    text-align: left;
+    border-bottom: 1px solid rgb(187, 187, 187)
 }
 
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 2px
+    max-width: 300px
 }
 
 header, footer, footer a {
-    text-align: center;
+    text-align: left;
     background-color:white;
     color: black;
 }
 
 header img {
-    width: 10;
-    height: auto;
+    width: 200px;
+    height: 200px;
     float: right;
     
 }
