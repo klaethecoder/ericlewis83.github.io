@@ -7,7 +7,7 @@ body {
 }
 h1 {
     font-size:20px;
-    color: green;
+    color:white;
 }
 
 h2 {
@@ -25,16 +25,17 @@ header, main, footer {
 header, footer, footer a {
     text-align: left;
     background-color:blue;
-    color: black;
+    color:white;
 }
 
 header img {
     width: 175px;
-    height: 175px;
+    height:auto;
     float: right;
     
 }
 
 footer {
     font-size: 10;
+    text-align:center
 }
