@@ -17,6 +17,11 @@
     nav ul li {
         display: inline-block;
     }
+    a:hover { 
+        background-color: rgb(54, 22, 238); 
+        color: #000; 
+        border-bottom: 1px solid #fff; 
+        } 
 
     nav ul li:first-child {
         display: none;
