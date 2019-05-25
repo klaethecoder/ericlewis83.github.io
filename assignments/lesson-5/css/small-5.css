@@ -6,7 +6,7 @@
 
 body {
     font-size:16px;
-	background-color: #bbb;
+	background-color:#00b4b8;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 .active {
-    background: #000;
+    background: rgb(0, 0, 0);
     color:#fff;
 }
 
@@ -67,7 +67,7 @@ main, footer, .contactsection {
     margin: 10px auto;
 }
 main-article {
-background-color:#eee 
+background-color:#eee
 border 1px solid #bbb;
 }
 
