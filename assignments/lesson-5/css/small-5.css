@@ -58,8 +58,8 @@ nav ul li a {
     font-style: italic;
 }
 
-.forecast {display:none;}
-margin:5px auto;
+.forecast {display:none;} 
+ margin: 5px auto;
 text-align:center
 
 main, footer, .contactsection {
