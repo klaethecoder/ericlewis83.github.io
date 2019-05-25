@@ -58,6 +58,7 @@ nav ul li a {
     font-style: italic;
 }
 
+.forecast {display:none;}
 
 main, footer, .contactsection {
     max-width: 960px;
