@@ -59,10 +59,20 @@ nav ul li a {
 }
 
 .forecast {display:none;}
+margin:5px auto;
+text-align:center
 
 main, footer, .contactsection {
     max-width: 960px;
     margin: 10px auto;
+}
+main-article {
+background-color:#eee 
+border 1px solid #bbb;
+}
+
+ .contactsection {
+ display: inline-block;  
 }
 
 h2 {
