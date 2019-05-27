@@ -16,7 +16,7 @@ header {
 	margin: 10px auto;
 	background-color: #fff;
 	border: 1px solid #bbb;
-
+	box-shadow: 0 0 30px #777;
 	text-align: center;
 }
 
@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 .active {
-    background: rgb(33, 162, 179);
+    background: rgb(0, 0, 0);
     color:#fff;
 }
 
@@ -94,7 +94,7 @@ h2 {
 }
 
 .hero img {
-    width:75%;
+    width:100%;
     height: auto;
 }
 
