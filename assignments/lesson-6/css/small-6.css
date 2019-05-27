@@ -89,7 +89,7 @@ h2 {
     text-align: center;
 }
 
-.hero {
+.herodiv {
     position: relative;
 }
 
@@ -99,6 +99,7 @@ h2 {
 }
 
 .weathersummary {
+    position: absolute;
     border: 1px solid #000;
     padding: 10px;
     background-color: rgba(0, 255, 0, 0.3);
