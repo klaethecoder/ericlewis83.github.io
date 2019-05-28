@@ -78,7 +78,7 @@ main-article {
 background-color:#eee
 border 1px solid #bbb;
 }
-main-article img{
+.main-article img{
     float: right;
 }
 

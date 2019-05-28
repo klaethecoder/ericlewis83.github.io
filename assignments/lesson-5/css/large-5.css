@@ -38,10 +38,9 @@
 
 .weathersummary
 
-main-article img{
+.main-article img{
     float: right;
 }
-
 
 .map {
     display: inline-block;

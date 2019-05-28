@@ -35,8 +35,16 @@
 .herodiv {
     position: relative;
 }
+.hero img {
+    width: 100%;
+    height: auto;
+}
 
 .weathersummary 
+
+.main-article img{
+    float: right;
+}
 
 .map {
     display: inline-block;
