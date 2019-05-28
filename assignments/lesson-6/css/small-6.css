@@ -1,4 +1,4 @@
-/* main css custom file */
+* main css custom file */
 *{
     margin:10;
     padding:0;
@@ -38,7 +38,7 @@ nav{
 
 nav ul{
     list-style-type: none;
-    padding: 0px;
+    padding:0px
 }
 a:hover { 
     background-color: rgb(3, 1, 83); 
@@ -65,10 +65,11 @@ nav ul li a {
     font-style: italic;
 }
 
-.forecast {display:none;
-margin: 5px auto; 
+.forecast table{display:none;
+margin: auto; 
 text-align:center
 }
+
 main, footer, .contactsection {
     max-width: 960px;
     margin: 10px auto;
@@ -77,7 +78,6 @@ main-article {
 background-color:#eee
 border 1px solid #bbb;
 }
-
 .main-article img{
     float: right;
 }
