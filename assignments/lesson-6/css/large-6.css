@@ -12,9 +12,13 @@
         margin:auto;
         display:block;
         border: 1px solid #000; 
- 
     }
-
+    .forecast-image
+        th, td { 
+        padding: 5px; 
+        border: 1px solid #000; 
+    
+    }
     .headertext {
         margin-left: 4rem;
     }
