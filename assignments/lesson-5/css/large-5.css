@@ -9,7 +9,8 @@
     }
    
     .forecast table{display:block;}
- 
+    style{margin:auto;}
+}
     .headertext {
         margin-left: 4rem;
     }
