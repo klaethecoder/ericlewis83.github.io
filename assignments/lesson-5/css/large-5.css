@@ -27,31 +27,30 @@
         display: none;
     }
     
- picture style{
- display: inline-block;
+ picture style {
+     display: inline-block;
+ }
+ 
 }
-
-
 .herodiv {
     position: relative;
-    
 }
 
 .weathersummary {
     border: 1px solid #000;
     padding: 10px;
     background-color: rgba(0, 255, 0, 0.3);
-    position:absolute
-    top 20px;
+    position:absolute;
+    top: 20px;
     left: 20px;
-
+}
 .map {
-display: inline-block;
-}
-
-.contactsection {
     display: inline-block;
-}
+    }
+    
+    .contactsection {
+        display: inline-block;}
+
 footer {
     background-color:#00b4b8;
     margin-left: 150px;
