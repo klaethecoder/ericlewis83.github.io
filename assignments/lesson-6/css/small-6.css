@@ -1,4 +1,4 @@
-* main css custom file */
+/* main css custom file */
 *{
     margin:10;
     padding:0;
@@ -75,21 +75,22 @@ main, footer, .contactsection {
     margin: 10px auto;
 }
 main-article {
-background-color:#eee
-border 1px solid #bbb;
+background-color:#eee;
+border:1px solid #bbb;
 }
 .main-article img{
     float: right;
+    margin: 10px;
+    width: 200px;
+    height: auto;
 }
 
- .contactsection {
- display: inline-block;  
+ .contactinfo {
+clear: both;
 }
 footer {
     background-color:#00b4b8;
-    margin-left: 150px;
-    height:50px;
-    width: 80%;
+    padding: 10px;
 }
 
 h2 {
@@ -115,4 +116,5 @@ h2 {
 }
 .map {
     display: inline-block;
+    width: 100%;
     }
