@@ -1,6 +1,6 @@
 /* main css custom file */
 *{
-    margin:10;
+    margin:10px;
     padding:0;
 }
 
@@ -32,7 +32,7 @@ header {
 }
 
 nav{
-    background-color: skyblue;
+    background-color:#00b4b8;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 
 
 nav ul li a {
-    padding: .5rem;
+    padding: 1px;
     display: block;
     text-decoration: none;
     color: #000;
@@ -60,8 +60,8 @@ nav ul li a {
 }
 
 .motto {
-    font-size: .9rem;
-    color: rgba(0, 87, 25);
+    font-size: 18px;
+    color:#00b82e;
     font-style: italic;
 }
 
