@@ -61,7 +61,7 @@ nav ul li a {
 
 .motto {
     font-size: 18px;
-    color:#00b82e;
+    color:#013a0f;
     font-style: italic;
 }
 
@@ -109,7 +109,7 @@ h2 {
 .weathersummary {
     border: 1px solid #000;
     padding: 10px;
-    background-color: rgba(0, 255, 0, 0.993);
+    background-color:#15ff00;
     position:absolute;
     top: 20px;
     left: 20px;
