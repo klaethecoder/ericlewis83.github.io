@@ -22,8 +22,8 @@
         </div>
     </header>
     <nav>
-        <ul class="site-navigation">
-            <li><a href="">&equiv; Menu</a></li>
+        <ul class="navigation">
+            <li><button class="button" onclick="toggleMenu()">Menu</button></li>
             <li><a href="">Home</a></li>
             <li><a href=""><class="active">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
@@ -36,11 +36,11 @@
         <h2>Preston Idaho</h2>
         <div class="herodiv">
                <img src="images/hero-large.jpg" alt="hero large image"> 
-             <img srcset="hero-large-320w.jpg" 320w,
-             hero-large-480w.jpg 480w,
-             hero-large-800w.jpg 800w"
-             sizes="(max-width=320px) 280px,
-             (max-width: 480px) 440px, 800px"
+             <img srcset="images/hero-large-320w.jpg 320w,
+             images/hero-small.jpg 480w,
+             images/hero-large.jpg 800w"
+             sizes="100vw"
+    
              src="hero-large-800w.jpg" alt="hero large">
 
             <div class="weathersummary">
@@ -115,7 +115,7 @@
                 </p>
 
                 <script src="js/togglemenu.js"> </script>
-            </footer>
+           
 </body>
 
 </html>

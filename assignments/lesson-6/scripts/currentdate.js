@@ -1,4 +1,4 @@
-('current date').innerHTML=thedate;
+
 var d = new Date();
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
