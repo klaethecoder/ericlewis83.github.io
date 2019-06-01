@@ -36,7 +36,7 @@ nav{
     text-align: center;
     
 }
-nav {margin: 0 auto;	max-width: 760px; background-color: #000;	}
+nav {margin: 0 auto;	max-width: 760px; background-color: #0004ff;	}
     .navigation { list-style: none; text-align: center; }
       .navigation li:first-child { display: block;}
       .navigation li { display: none;}
@@ -53,7 +53,7 @@ nav ul{
 }
 a:hover { 
     background-color: #eeff00;
-    color: #000; 
+    color: #fdfdfd; 
     border-bottom: 1px solid #fff; 
     } 
 
