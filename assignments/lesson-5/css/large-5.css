@@ -63,9 +63,13 @@
 }
 
 .map {
-    display: inline-block;
-    }
-    
+    display: block;
+    width: 50%;
+    height: auto;
+    float: right;
+    margin: -1em 0 0 2em;
+
+}
     .contactinfo{
         display: inline-block;
     }
