@@ -57,10 +57,6 @@
         color: yellow;
     }
 
-    picture style {
-        display: inline-block;
-    }
-
     .herodiv {
         position: relative;
         width: 100%;
@@ -84,11 +80,9 @@
 
     }
 
-
     .contactinfo {
         display: inline-block;
     }
-
 
     footer {
         text-align: center;
