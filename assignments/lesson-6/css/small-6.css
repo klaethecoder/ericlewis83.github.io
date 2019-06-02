@@ -168,5 +168,7 @@ h2 {
 }
 
 .map {
-    display: none;
+    display: inline-block;
+    width:50%;
+    height: auto;
 }
