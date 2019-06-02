@@ -50,11 +50,10 @@
 
 .herodiv {
     position: relative;
+width: 100%;
+height: auto;
 }
-.hero img {
-    width: 100%;
-    height: auto;
-}
+
 
 .main-article img{
     float: right;
@@ -82,4 +81,3 @@ footer {
     text-align: center;
     font-size: 20px; 
 }
-

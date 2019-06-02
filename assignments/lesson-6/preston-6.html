@@ -35,12 +35,11 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="herodiv">
-            <picture>
-                    <source srcset="images/hero-large.jpg" media="(min-width: 400px) (max-width:960px)">
-                    <source srcset="images/heroimage.jpg" media="(min-width:1200px)">
-                    <img src="images/hero-small.jpg" alt="hero small image">
-                    </picture>
-
+                <picture>
+                      <img src="images/hero-large.jpg" alt="hero image"
+                      sizes="100vw" srcset="images/hero-small.jpg 400w, images/hero-large.jpg 960w">
+                        </picture>
+                 
             <div class="weathersummary">
                 <h3>Weather Summary</h3>
                 <p>Current: Sunny</p>
