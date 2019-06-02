@@ -115,7 +115,7 @@ h2 {
     left: 20px;
 }
 .map {
-    display: inline-block;
+    display:block;
     width: 25%;
     height:25%;
 }
