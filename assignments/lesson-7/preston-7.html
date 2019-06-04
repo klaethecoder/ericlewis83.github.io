@@ -37,8 +37,9 @@
         <h2>Preston Idaho</h2>
         <div class="herodiv">
                 <picture>
-                      <img src="images/hero-large.jpg" alt="hero image"
-                      sizes="100vw" srcset="images/hero-small.jpg 400w, images/hero-large.jpg 960w">
+                    <source media="(max-width: 400px)" srcset="images/hero-small.jpg">
+                        <source media=(min-width: 700px)" srcset="images/hero-large.jpg">
+                        <img src="images/hero-large.jpg" alt= "hero large image"> 
                         </picture>
                  
             <div class="weathersummary">
