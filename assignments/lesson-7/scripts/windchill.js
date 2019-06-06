@@ -1,7 +1,10 @@
-var tempF, speed;
-tempF = (76)/ 2;
-speed = 5;
+var high =76;
+var low =50;
+var wSpeed =5;
+var tempaverage= ((high + low) /2);
 
-var f = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF  * Math.pow(speed, 0.16);
-document.getElementById("windchill").innerHTML = f.toFixed(2);
+var windChill= 35.74 + 0.6215 * tempaverage - 35.75 * Math.pow(wSpeed, 0.16) + 0.4275 * tempaverage * Math.pow(wSpeed, 0.16);
+windChill= Math.round(windChill)  +  "&deg;F";
 
+
+document.getElementById ("windChill").innerHTML= windChill;
