@@ -1,5 +1,5 @@
 var high =67;
-var tempaverage= document.getElementById("temperature").innerHTML;
+var tempaverage= document.getElementById("tempaverage").innerHTML;
 var wSpeed = document.getElementById("windspeed").innerHTML;
 
 
