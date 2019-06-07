@@ -39,14 +39,7 @@ header {
 }
 
 nav {
-    background-color: #00b4b8;
-    text-align: center;
-
-}
-
-nav {
     margin: 0 auto;
-    max-width: 760px;
     background-color: #0004ff;
 }
 
@@ -54,7 +47,6 @@ nav {
     list-style: none;
     text-align: center;
     display: flex;
-    flex-direction: column;
 }
 
 .navigation li:first-child {
@@ -68,7 +60,7 @@ nav {
 .navigation a {
     display: block;
     color: #fff;
-    padding: .75rem;
+    padding: 1px;
     text-align: center;
     text-decoration: none;
 }
@@ -98,13 +90,6 @@ a:hover {
 }
 
 
-nav ul li a {
-    padding: 1px;
-    display: block;
-    text-decoration: none;
-    color: #000;
-}
-
 .active {
     background: rgb(0, 0, 0);
     color: #fff;
@@ -117,7 +102,6 @@ nav ul li a {
 }
 
 .forecast table {
-    display: none;
     margin: auto;
     text-align: center
 }
