@@ -1,4 +1,4 @@
-* main css custom file */
+/* main css custom file */
 * {
     margin: 10px;
     padding: 0;
@@ -51,8 +51,6 @@ nav {
 }
 
 .navigation {
-    display: none;
-    flex-direction: column;
     list-style: none;
     text-align: center;
 }
@@ -85,14 +83,6 @@ nav {
 .responsive li {
     display: block;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    max-width:65 rem;
-    max-height: 100px;
-    overflow: hidden;
-}
-
 
 nav ul {
     list-style-type: none;

@@ -29,10 +29,6 @@
     .headertext {
         margin-left: 4rem;
     }
-    .navigation, .container
-    {flex-direction: row;
-    }
-    
 
     nav ul li {
         display: inline-block;
@@ -44,12 +40,16 @@
         border-bottom: 1px solid #fff;
     }
 
+    nav ul li:first-child {
+        display: none;
+    }
+
     .navigation li:first-child {
         display: none;
     }
 
     .navigation li {
-        display: block;
+        display: inline-block;
         margin-right: 1rem;
     }
 
