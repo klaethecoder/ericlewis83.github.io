@@ -100,7 +100,9 @@ a:hover {
     color: #013a0f;
     font-style: italic;
 }
-
+.forecast {
+    display: none;
+}
 .forecast table {
     margin: auto;
     text-align: center

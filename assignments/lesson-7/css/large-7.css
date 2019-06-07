@@ -9,13 +9,13 @@
     }
 
     .forecast {
+        display: block;
         text-align: center;
     }
 
     .forecast table {
         margin: 0 auto;
        
-        
 
     }
 
