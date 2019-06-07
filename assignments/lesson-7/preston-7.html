@@ -37,23 +37,21 @@
         <h2>Preston Idaho</h2>
         <div class="herodiv">
             <picture>
-                <source media="(max-width: 400px)" srcset="images/hero-small.jpg">
-                    <source media=(min-width: 700px)" srcset="images/hero-large.jpg">
-                    <img src="images/hero-large.jpg" alt= "hero large image"> 
+                    <source media=(min-width: 700px)" srcset="images/heroimage.jpg">
+                    <img src="images/heroimage.jpg" alt= "hero image"> 
                     </picture>
                  
             <div class="weathersummary">
                 <h3>Weather Summary</h3>
                 <p>Current: Cloudy</p>
                 <p>High: 67</p>
-                <p>Wind speed: 5 mph</p>
+                <p>Wind speed:<div id="windspeed">5</div> </p>
                 <p>Humidity: 50%</p>
-                <p>Windchill: </p>
+                <p>Windchill:<div id="windchill"></div></p>
             </div>
         </div>
 
         
-            <div id="windchill"></div>
 
         <section class="forecast">
             <h3>5 Day Forecast</h3>
