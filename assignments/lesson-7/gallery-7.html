@@ -34,14 +34,53 @@
 </nav>
 <main>
 
-    <section class="grid">
-        <img src="images/cloudysky.jpg" alt="cloudy sky">
-        <img src="images/sunny.jpg" alt="sunny">
-        <img src="images/snow.jpg" alt= "snow">
-        <img src="images/rainbow.jpg" alt= "rainbow">
-        <img src="images/lightning.jpg" alt="lightning">
-        <img src="images/fog.jpg" alt="fog">
-    </section>
+        <h3 id="gallery">Gallery</h3>
+        <main class="gallery">
+    
+            <div>
+                <picture>
+                    <source srcset="images/cloudysky.jpg">
+                        <img src="images/cloudysky.jpg" alt="cloudy sky">
+                </picture>
+                <figcaption>Cloudy skies</figcaption>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="images/sunny.jpg">
+                    <img src="images/sunny.jpg" alt="sunny"> 
+                </picture>
+                <figcaption>Sunny skies</figcaption>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="images/snow.jpg">
+                    <img src="images/snow.jpg" alt= "snow">
+                </picture>
+                <figcaption>Snowy field</figcaption>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="images/rainbow.jpg">
+                    <img src="images/rainbow.jpg" alt="rainbow">
+                </picture>
+                <figcaption>Rainbow after rain</figcaption>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="images/lightning.jpg">
+                    <img src="images/lightning.jpg" alt="lightning">
+                </picture>
+                <figcaption>Lightning strikes</figcaption>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="images/fog.jpg"> 
+                    <img src="images/fog.jpg" alt="Foggy weather">
+                </picture>
+                <figcaption>Fog covered valley</figcaption>
+            </div>
+       
+        </main>
     <div class="contactinfo"></div>
     <strong>Weather 4 U</strong>
     <br><img class="smallesticon" src="images/pointer.png" alt="location pointer">&nbsp;30 N 1st E
@@ -56,19 +95,19 @@
     <img class=".small.icon" src="images/whatsappimg.png" alt="whatsapp link">
 
 
-</main>
+
 <div class="map"></div>
 <img src="images/prestonmap.png" alt="preston map">
 
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/currentdate.js"></script>
-<script src="scripts/windchill.js"></script>
 
 <footer>
     &copy; 2019 Weather 4 U|Attributions|Eric Lewis<br>
     <span id="currentdate"></span>
 </footer>
 
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/windchill.js"></script>
 
 </body>
 
