@@ -1,10 +1,5 @@
-var high =67;
-var tempaverage= document.getElementById('temp').innerHTML;
-var wSpeed = document.getElementById('windspeed').innerHTML;
+let temp = parseInt(document.getElementById('temperature').innerHTML);
+let speed = parseInt(document.getElementById('windspeed').innerHTML);
+let chillF = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, .16)) + (.4275 * temp * Math.pow(speed, .16));
 
-
-var windchill= 35.74 + 0.6215 * tempaverage - 35.75 * Math.pow(wSpeed, 0.16) + 0.4275 * tempaverage * Math.pow(wSpeed, 0.16);
-windchill= Math.round(windchill)  +  "&deg;F";
-
-
-document.getElementById ('windchill').innerHTML= windchill;
+document.getElementById('windchill').innerHTML =  chillF.toFixed(1) + "&#8457;";
