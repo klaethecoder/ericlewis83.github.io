@@ -28,6 +28,7 @@ header {
 
 .logo,
 .headings {
+     
     vertical-align: middle;
     margin: 10px;
 }
@@ -155,8 +156,7 @@ h2 {
 }
 
 .map {
-    display: inline-block;
-    display:flex;
+   display:inline-block;
     width:20%;
     height: auto;
 }
@@ -165,9 +165,9 @@ h2 {
     grid-template-columns: 1fr 1fr;
 }
 .gallery {
-    margin-top: 2em;
     margin-bottom: 2em;
     display: grid;
+   
 }
   
   .gallery p {
