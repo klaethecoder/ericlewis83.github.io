@@ -81,11 +81,45 @@
     }
 
     .contactinfo {
-        display: inline-block;
+        display: flex;
+        align-content: center;
+       
     }
 
     footer {
         text-align: center;
         font-size: 20px;
     }
+}
+/*------------------Gallery---------------*/
+@media only screen and (min-width: 32.5em) {
+.gallery {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 30.9%);
+    grid-gap: 10px;
+    width: 79%;
+    height: 105vh;
+    text-align: center;
+}
+
+.gallery p {
+    display: inline;
+    font-family: 'lobster two';
+}
+
+.gallery img:hover {
+    box-shadow: 5px 5px 20px #191919;
+}
+
+.gallery img:active {
+    transition: transform .5s ease;
+    transform: scale(1.7);
+}
+#gallery {
+    width: 74.5%;
+    margin: 1.2em 12.5% 0 12.5%;
+
+}
 }
