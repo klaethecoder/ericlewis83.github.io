@@ -39,12 +39,6 @@ header {
 }
 
 nav {
-    background-color: #00b4b8;
-    text-align: center;
-
-}
-
-nav {
     margin: 0 auto;
     background-color: #0004ff;
 }
@@ -52,6 +46,7 @@ nav {
 .navigation {
     list-style: none;
     text-align: center;
+    display: flex;
 }
 
 .navigation li:first-child {
@@ -65,7 +60,7 @@ nav {
 .navigation a {
     display: block;
     color: #fff;
-    padding: .75rem;
+    padding: 1px;
     text-align: center;
     text-decoration: none;
 }
@@ -113,8 +108,10 @@ nav ul li a {
     font-style: italic;
 }
 
-.forecast table {
+.forecast{
     display: none;
+}
+.forecast table {
     margin: auto;
     text-align: center
 }
