@@ -1,4 +1,4 @@
-@media only screen and (min-width:32.5em) {
+@media only screen and (min-width:48em) {
 
     .logo {
         width: 150px;
@@ -30,9 +30,7 @@
         margin-left: 4rem;
     }
 
-    nav ul li {
-        display: inline-block;
-    }
+   
 
     a:hover {
         background-color: #eeff00;
@@ -44,17 +42,7 @@
         font-size: 20px;
     }
 
-
-    nav ul li:first-child {
-        display: none;
-    }
-
-    .navigation li:first-child {
-        display: none;
-    }
-
     .navigation li {
-        display: inline-block;
         margin-right: 1rem;
     }
 
@@ -92,15 +80,11 @@
     }
 }
 /*------------------Gallery---------------*/
-    @media only screen and (min-width: 32.5em) {
+    @media only screen and (min-width: 48em) {
         .gallery {
-            margin-top: 1em;
             margin-bottom: 1em;
-            grid-template-rows: repeat(2, 1fr);
-            grid-template-columns: repeat(3, 40%);
+            grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 20px;
-            width: 100%;
-            height: auto;
             text-align: center;
         }
         
