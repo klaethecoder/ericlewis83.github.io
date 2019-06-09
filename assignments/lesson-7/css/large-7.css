@@ -75,7 +75,6 @@
 
     .map {
         margin: -7em 0 0 -7em;
-        
     }
 
     .contactinfo {
@@ -105,7 +104,7 @@
         }
         
         .gallery img:hover {
-            box-shadow: 5px 5px 10px #0a23ad;
+            box-shadow: 5px 5px 10px #1900fd;
         }
         
         .gallery img:active {

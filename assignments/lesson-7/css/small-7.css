@@ -28,7 +28,7 @@ header {
 
 .logo,
 .headings {
-
+     
     vertical-align: middle;
     margin: 10px;
 }
@@ -101,11 +101,9 @@ a:hover {
     color: #013a0f;
     font-style: italic;
 }
-
 .forecast {
     display: none;
 }
-
 .forecast table {
     margin: auto;
     text-align: center
@@ -158,26 +156,24 @@ h2 {
 }
 
 .map {
-    display: inline-block;
-    width: 20%;
+   display:inline-block;
+    width:20%;
     height: auto;
 }
-
-.grid {
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .gallery {
     margin-bottom: 2em;
     display: grid;
-
+   
 }
-
-.gallery p {
+  
+  .gallery p {
     display: none;
-}
-
-.gallery img {
+  }
+  
+  .gallery img {
     box-shadow: none;
-}
+  }

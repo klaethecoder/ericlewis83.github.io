@@ -1,4 +1,4 @@
-/* medium and up views */
+/* medium views */
 @media (min-width: 32.5em) {
 	.navigation li:first-child { display: none;	}
 	.navigation li { display: block; flex: 1 1 auto; }
