@@ -7,10 +7,10 @@
     border-radius: 25px 25px 25px 25px;
 }
 .stormForm .subsection{
-    padding: 30px;
+    padding: -30px;
     background: #F8F8F8;
     border-radius: 6px;
-    margin-bottom: 10px;
+   
 }
 .stormForm h1,
 .thanks h1{
@@ -25,7 +25,7 @@
 
 .stormForm label{
     display: block;
-    color: #0000CD;
+    color: #00008B;
     margin-bottom: 15px;
 }
 .stormForm input[type="text"],
