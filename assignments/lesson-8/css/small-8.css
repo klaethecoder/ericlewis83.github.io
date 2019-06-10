@@ -1,0 +1,182 @@
+/* main css custom file */
+* {
+    margin: 0px;
+    padding: 2px;
+}
+
+body {
+    font-size: 16px;
+    background-color: #00b82e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    flex-flow: row;
+    box-shadow: 0 0 30px #777;
+    justify-content: center;
+}
+
+.logo,
+.headings {
+     
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #0004ff;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+      <ul class="navigation responsive">
+      */
+.responsive li {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px
+}
+
+a:hover {
+    background-color: #eeff00;
+    color: #fdfdfd;
+    border-bottom: 1px solid #fff;
+}
+
+
+.active {
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.motto {
+    font-size: 18px;
+    color: #013a0f;
+    font-style: italic;
+}
+.forecast {
+    display: none;
+}
+.forecast table {
+    margin: auto;
+    text-align: center
+}
+
+main,
+footer,
+.contactsection {
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+main-article {
+    background-color: #eee;
+    border: 1px solid #bbb;
+}
+
+.main-article img {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.contactinfo {
+    clear: both;
+}
+
+footer {
+    background-color: #00b4b8;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.herodiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.weathersummary {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #15ff00;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+
+.map {
+   display:inline-block;
+    width:20%;
+    height: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gallery {
+    margin-bottom: 2em;
+    display: grid;
+   
+}
+  
+  .gallery p {
+    display: none;
+  }
+  
+  .gallery img {
+    box-shadow: none;
+  }

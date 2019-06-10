@@ -1,0 +1,15 @@
+/* medium views */
+@media (min-width: 32.5em) {
+	.navigation li:first-child { display: none;	}
+	.navigation li { display: block; flex: 1 1 auto; }
+	.navigation, .container { flex-direction: row; }
+}
+
+    @media only screen and (min-width: 32.5em) {
+        .gallery {
+            margin-bottom: 1em;
+            grid-template-columns:1fr 1fr 1fr;
+            grid-gap: 20px;
+            text-align: center;
+		}
+	}
