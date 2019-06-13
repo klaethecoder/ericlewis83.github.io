@@ -59,12 +59,16 @@
         color: yellow;
     }
 
+
     .main-article img {
         float: right;
         margin: 10px;
         width: 300px;
         height: auto;
     }
+   
+
+
 
     .map {
         margin: -7em 0 0 -7em;
