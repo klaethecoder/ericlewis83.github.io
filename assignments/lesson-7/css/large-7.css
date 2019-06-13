@@ -99,7 +99,7 @@
         }
         
         .gallery img:hover {
-            box-shadow: 5px 5px 10px #1900fd;
+            box-shadow: 5px 5px 5px 5px #1900fd;
         }
         
         .gallery img:active {
