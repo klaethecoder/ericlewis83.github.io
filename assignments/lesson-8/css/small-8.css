@@ -191,7 +191,7 @@ footer {
 /*region Storm center form design*/
 .stormForm,
 .thanks {
-    width: 100%;
+    width: 310px;
     padding: 30px;
     background: #FFF;
     border-radius: 25px 25px 25px 25px;
@@ -209,11 +209,10 @@ footer {
 .thanks h1 {
     background: #0004ff;
     padding: 20px 30px 15px 30px;
-    margin: -30px 0px 0px -30px;
-    border-radius: 20px 20px 0 0;
+    margin:  -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
     color: #fff;
 
-    border: 1px solid #257C9E;
 }
 
 .stormForm label {
@@ -278,19 +277,15 @@ footer {
 
 .stormForm input[type="button"],
 .stormForm input[type="submit"] {
+   
     background: #2A88AD;
-    padding: 8px 20px 8px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 5px;
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
     font: normal 30px 'Georgia', serif;
     border: 1px solid #257C9E;
     font-size: 16px;
-}
-
-.stormForm input[type="button"]:hover,
-.stormForm input[type="submit"]:hover {
-    background: #2A6881;
 }
 
 /*end region*/
