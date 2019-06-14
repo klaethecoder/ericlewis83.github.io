@@ -191,7 +191,7 @@ footer {
 /*region Storm center form design*/
 .stormForm,
 .thanks {
-    width: 310px;
+    width: 350px;
     padding: 30px;
     background: #FFF;
     border-radius: 25px 25px 25px 25px;
@@ -248,8 +248,9 @@ footer {
     padding: 8px;
     border-radius: 6px;
     border: 2px solid #fff;
+    margin-left:15px;
     width: 20rem;
-    height: 12rem;
+    height: 10rem;
 }
 
 .ymn {
