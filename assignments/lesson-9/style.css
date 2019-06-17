@@ -37,10 +37,11 @@ html {
   /* section styles */
   section article {
     width: 33%;
-    float: left;
     height: 20rem;
+    float: left;
     color: #ffffff;
     border: 1px solid white;
+
   }
 article:hover{
     background-color:#000000;
@@ -57,6 +58,6 @@ article:hover{
   h2 {
     font-size: 2.5rem;
     letter-spacing: -5px;
-    margin-bottom: 10px;
+    margin-left: 10px;
     color: #ff0000;
   }
