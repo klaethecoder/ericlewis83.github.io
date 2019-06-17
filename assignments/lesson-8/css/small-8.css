@@ -218,7 +218,7 @@ footer {
 
 .stormForm label {
     display: block;
-    color: #00008B;
+    color: #ff0000;
     margin-bottom: 15px;
 }
 
@@ -257,6 +257,7 @@ footer {
 .ymn {
     margin-right: 1.5rem;
     margin-left: .5rem;
+    color: #ff0000;
 }
 
 .stormForm .section {
