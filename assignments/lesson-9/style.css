@@ -9,7 +9,7 @@ html {
   body {
     width: 800px;
     margin: 0 auto;
-    background:#0000FF;
+    background:#000000;
   }
 
 
@@ -22,7 +22,7 @@ html {
   h1 {
     font-size: 4rem;
     text-align: center;
-
+    color: #ffffff;
 
   }
   
@@ -30,6 +30,7 @@ html {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
+    color: #ffffff;
   }
     
   
@@ -42,7 +43,7 @@ html {
     border: 1px solid white;
   }
 article:hover{
-    background-color: rgba(255,255,255,0.05);
+    background-color:#000000;
 }
 
   section p {
