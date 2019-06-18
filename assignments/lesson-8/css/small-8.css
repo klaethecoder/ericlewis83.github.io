@@ -1,7 +1,6 @@
 
 /* main css custom file */
 * {
-    margin: 0px;
     padding: 2px;
 }
 
@@ -43,9 +42,8 @@ h2 {
     height: auto;
 }
 
-nav {
-    margin: 0 auto;
-    background-color: #0004ff;
+nav { 
+background-color: #0004ff;
 }
 
 .navigation {
