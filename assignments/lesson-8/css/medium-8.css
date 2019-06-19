@@ -19,9 +19,16 @@
         margin-bottom: 1em;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
-        box-shadow: 0 0 50px;
         text-align: center;
     }
+    .gallery img:hover {
+        box-shadow: 0 0 50px  #1900fd;
+    }
+    .gallery img:active {
+        transition: transform .5s ease;
+        transform: scale(1.7);
+    }
+
 
     aside {
         display: flex;
