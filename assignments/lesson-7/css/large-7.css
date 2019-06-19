@@ -96,10 +96,8 @@
         .gallery p {
             display: inline;
             
-        }
-        
-        .gallery img:hover {
-            box-shadow: 5px 5px 5px 5px #1900fd;
+        }.gallery img:hover {
+            box-shadow: 0 0 50px  #1900fd;
         }
         
         .gallery img:active {

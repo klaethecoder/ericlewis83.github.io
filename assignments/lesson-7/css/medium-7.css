@@ -12,4 +12,12 @@
             grid-gap: 20px;
             text-align: center;
 		}
-	}
+        .gallery img:hover {
+            box-shadow: 5px 5px 5px 5px #1900fd;
+        }
+        
+        .gallery img:active {
+            transition: transform .5s ease;
+            transform: scale(1.7);
+        }
+    }
