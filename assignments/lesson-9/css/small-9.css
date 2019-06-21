@@ -1,7 +1,4 @@
 * main css custom file */
-* {
-    padding: 2px;
-}
 
 body {
     font-size: 16px;
@@ -41,8 +38,8 @@ h2 {
     height: auto;
 }
 
-nav { 
-background-color: #0004ff;
+nav {
+    background-color: #0004ff;
 }
 
 .navigation {
@@ -103,16 +100,19 @@ a:hover {
     color: #013a0f;
     font-style: italic;
 }
+
 main,
 footer,
 aside {
     max-width: 960px;
     margin: 10px auto;
 }
+
 .map img {
     width: 100%;
     height: auto;
 }
+
 aside {
     display: block;
     clear: both;
@@ -124,11 +124,38 @@ aside {
 }
 
 footer {
-    background-color:#ff0000;
+    background-color: #ff0000;
     padding: 10px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+
+.townh3 {
+    font-size: 2em;
+    font-family: 'Acme', cursive;
+    color: #1c2841;
+    text-align: center;
+}
+
+.townp1 {
+    font-style: italic;
+    font-size: 2em;
+    color: #568505;
+    padding: 10px;
+    text-align: center;
+}
+
+.townp {
+    font-size: 1.2em;
+}
+
+.towninfo {
+    border: 6px solid rgba(244, 241, 187);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 0px 0px 7px rgba(149, 176, 56);
 }

@@ -7,6 +7,7 @@
     h1 {
         font-size: 2.5rem;
     }
+
     .headertext {
         margin-left: 4rem;
     }
@@ -39,11 +40,11 @@
     .navigation li a {
         color: yellow;
     }
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 
+    .towninfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     footer {
         text-align: center;
