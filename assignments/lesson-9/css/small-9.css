@@ -1,4 +1,4 @@
-* main css custom file */
+/* main css custom file */
 
 body {
     font-size: 16px;
@@ -110,7 +110,7 @@ a:hover {
 .articleimg {
     margin: 15px;
     box-shadow: 0 0 5px #474a48;
-    float: right;
+  float: right;
 }
 
 
