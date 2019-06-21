@@ -101,6 +101,19 @@ a:hover {
     font-style: italic;
 }
 
+.article {
+    border: 1px solid rgba(71, 74, 72);
+    padding: 5px;
+    margin: 20px;
+}
+
+.articleimg {
+    margin: 15px;
+    box-shadow: 0 0 5px #474a48;
+    float: right;
+}
+
+
 main,
 footer,
 aside {
@@ -132,30 +145,28 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
 }
-
-towninfo{
-    border: 6px solid rgba(244, 241, 187);
-    border-radius: 10px;
+/*Town data*/
+.towninfo{
     margin: 15px;
-    box-shadow: 0px 0px 0px 7px rgba(149, 176, 56);
+    box-shadow: 0px 0px 0px 7px #0004ff;
 }
 
 .townp1 {
     font-style: italic;
-    font-size: 1.4em;
-    color: #26360b;
+    font-size: 1.3em;
+    color: #000000;
     padding: 10px;
     text-align: center;
+    justify-content: left;
 }
 .townh3 {
-    font-size: 1.6em;
-    font-family: 'Acme', cursive;
-    color: #1c2841;
+    font-size: 1.5em;
+    color: #000000;
     text-align: center;
+   justify-content: left;
 }
 
 .townp {
-    font-size: 2em;
+    font-size: 1.2em;
+    justify-content: left;
 }
-
-  
