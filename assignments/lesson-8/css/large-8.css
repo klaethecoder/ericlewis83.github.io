@@ -66,12 +66,12 @@
         height: auto;
     }
 
-
+    }
     footer {
         text-align: center;
         font-size: 20px;
     }
-}
+
 
 /*------------------Gallery---------------*/
 @media only screen and (min-width: 48em) {
