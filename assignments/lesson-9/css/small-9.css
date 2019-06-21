@@ -1,4 +1,6 @@
-/* main css custom file */
+ /*main css custom file */
+ *{padding: 1px;
+ }
 
 body {
     font-size: 16px;
