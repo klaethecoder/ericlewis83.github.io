@@ -148,18 +148,16 @@ footer {
     color: #000000;
     padding: 10px;
     text-align: center;
-    justify-content: left;
 }
+
 .townh3 {
     font-size: 1.5em;
     color: #000000;
     text-align: center;
-   justify-content: left;
 }
 
 .townp {
     font-size: 1.2em;
-    justify-content: left;
 }
 .article {
     border: 1px solid rgba(71, 74, 72);
