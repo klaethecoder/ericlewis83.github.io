@@ -133,29 +133,29 @@ footer {
     grid-template-columns: 1fr;
 }
 
-
-.townh3 {
-    font-size: 2em;
-    font-family: 'Acme', cursive;
-    color: #1c2841;
-    text-align: center;
-}
-
-.townp1 {
-    font-style: italic;
-    font-size: 2em;
-    color: #568505;
-    padding: 10px;
-    text-align: center;
-}
-
-.townp {
-    font-size: 1.2em;
-}
-
-.towninfo {
+towninfo {
     border: 6px solid rgba(244, 241, 187);
     border-radius: 10px;
     margin: 15px;
     box-shadow: 0px 0px 0px 7px rgba(149, 176, 56);
 }
+
+.townp1 {
+    font-style: italic;
+    font-size: 1.4em;
+    color: #26360b;
+    padding: 10px;
+    text-align: center;
+}
+.townh3 {
+    font-size: 1.6em;
+    font-family: 'Acme', cursive;
+    color: #1c2841;
+    text-align: center;
+}
+
+.townp {
+    font-size: 2em;
+}
+
+  
