@@ -1,4 +1,4 @@
-let div = document.querySelector('.townInfo');
+let div = document.querySelector('.towndata');
 let requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -6,8 +6,8 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function () {
-    let townInfo = request.response;
-    let townArray = townInfo['towns'];
+    let towndata = request.response;
+    let townArray = towndata['towns'];
 
     for (let i = 0; i < townArray.length; i++) {
         if (townArray[i].name == 'Fish Haven' || townArray[i].name == 'Preston' || townArray[i].name == 'Soda Springs') {
