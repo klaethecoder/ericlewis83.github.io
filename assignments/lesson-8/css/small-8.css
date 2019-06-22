@@ -36,6 +36,7 @@ h2 {
     text-align: center;
 }
 
+
 .logo {
     width: 75px;
     height: auto;
@@ -142,14 +143,15 @@ main-article {
     height: auto;
 }
 
+
 #weathersummary {
     border: 1px solid #000;
     background-color: #15ff00;
     position: absolute;
     top: 20px;
     left: 20px;
-
 }
+
 
 aside {
     display: block;
