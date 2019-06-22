@@ -27,6 +27,7 @@ request.onload = function () {
             para3.textContent = "Population:  " + townArray[i].currentPopulation;
             para4.textContent = "Average Rainfall:  " + townArray[i].averageRainfall + " inches";
 
+            
             section.setAttribute("class", "towninfo");
             h3.setAttribute("class", "townh3");
             para1.setAttribute("class", "townp1");
@@ -34,8 +35,7 @@ request.onload = function () {
             para3.setAttribute("class", "townp");
             para4.setAttribute("class", "townp");
             image.setAttribute("class", "townimg");
-
-
+            
             if (townArray[i].name == 'Fish Haven') {
                 image.setAttribute("src", "images/fishhaven.jpg");
                 image.setAttribute("alt", "Lakeside homes");
