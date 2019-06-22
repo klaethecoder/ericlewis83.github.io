@@ -12,8 +12,7 @@ request.onload = function () {
     for (let i = 0; i < townArray.length; i++) {
         if (townArray[i].name == 'Fish Haven' || townArray[i].name == 'Preston' || townArray[i].name == 'Soda Springs') {
 
-            let section = document.createElement('section');
-            let article = document.createElement('article');
+            let section = document.createElement('section')
             let h3 = document.createElement('h3');
             let para1 = document.createElement('p');
             let para2 = document.createElement('p');
@@ -46,13 +45,13 @@ request.onload = function () {
                 image.setAttribute("src", "images/sodasprings.jpg");
                 image.setAttribute("alt", "Geyser rainbow");
             }
-            article.appendChild(h3);
-            article.appendChild(para1);
-            article.appendChild(para2);
-            article.appendChild(para3);
-            article.appendChild(para4);
-            section.appendChild(article);
+            section.appendChild(h3);
+            section.appendChild(para1);
+            section.appendChild(para2);
+            section.appendChild(para3);
+            section.appendChild(para4);
             section.appendChild(image);
+            
             div.appendChild(section);
         }
     }
