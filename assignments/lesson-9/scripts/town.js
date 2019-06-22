@@ -31,8 +31,7 @@ request.onload = function () {
             h3.setAttribute("class", "townh3")
             para1.setAttribute("class", "townp1");
             para2.setAttribute("class", "townp");
-            para3.setAttribute("class", "townp");
-            para4.setAttribute("class", "townp");
+           
             
             
             if (townArray[i].name == 'Fish Haven') {
