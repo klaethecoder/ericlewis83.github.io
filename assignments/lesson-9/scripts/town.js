@@ -40,11 +40,11 @@ request.onload = function () {
                 image.setAttribute("alt", "Lakeside homes");
             } else if (townArray[i].name == 'Preston') {
                 image.setAttribute("src", "images/preston.jpg");
-                image.setAttribute("alt", "Preston store");
+                image.setAttribute("alt", "Town store");
             } else if (townArray[i].name == 'Soda Springs') {
-                image.setAttribute("src", "Geyser rainbow");
+                image.setAttribute("src", "images/sodasprings.jpg");
+                image.setAttribute("alt", "Geyser rainbow");
             }
-            
             article.appendChild(h3);
             article.appendChild(para1);
             article.appendChild(para2);
