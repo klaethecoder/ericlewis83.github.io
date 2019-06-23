@@ -146,7 +146,7 @@ main-article {
     height: auto;
 }
 
-#weathersummary {
+.weathersummary {
     border: 1px solid #000;
     background-color: #15ff00;
     position: absolute;
