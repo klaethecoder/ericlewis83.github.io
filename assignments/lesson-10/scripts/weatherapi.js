@@ -10,7 +10,7 @@ console.log(weatherData)};
 
 document.getElementById('cc-temp').innerHTML=weatherData.main.temp;
 
-let icon="http://openweathermap.org/img/w"+10n 'WeatherData.Weather[0].icon,'+".png"
+let icon='http://openweathermap.org/img/w'+'WeatherData.Weather[0].icon,' +'.png'
 let desc=weatherData.weather.description;
 
 document.getElementByID('cc-img').setAttribute('src', icon);
