@@ -11,7 +11,7 @@ weatherRequest.onload = function () {
 
     document.getElementById('cc-temp').innerHTML = weatherData.main.temp;
 
-    let icon = 'http://openweathermap.org/img/w/' + weatherData.Weather[0].icon + '.png'
+    let icon = 'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png'
     let desc = weatherData.weather[0].description;
 
     document.getElementById('cc-img').setAttribute('src', icon);
