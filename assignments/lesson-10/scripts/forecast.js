@@ -5,11 +5,8 @@ weatherforecast.send();
 
 weatherforecast.onload = function () {
     let forecastData = JSON.parse(weatherforecast.responseText);
-
-    let hightempforecast = [];
-    let icon = [];
-    let dates = [];
-    let day = 1;
+console.log(forecastData);
+   
     var weekday = new Array(7);
     weekday[0] = "Monday";
     weekday[1] = "Tuesday";
@@ -18,24 +15,19 @@ weatherforecast.onload = function () {
     weekday[4] = "Friday";
     weekday[5] = "Saturday";
     weekday[6] = "Sunday";
-
-    for (let i = 1; i < forecastData.list.length; i++) {
+let count=1;
+    for (let i = 0; i < forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt.includes("18:00:00")) {
-            hightempforecast[day] = forecastData.list[i].main.temp_max;
-            dates[day] = forecastData.list[i].dt_txt;
-            icon[day] = forecastData.list[i].weather[0].icon;
+             document.getElementById('degforecast'+count).innerHTML=forecastData.list[i].main.temp_max;
+             document.getElementById('imgforecast'+count).setAttribute('src',"https://openweathermap.org/img/w/" + forecastData.list[i].weather[0].icon + ".png");
+           document.getElementById('dayforecast'+count).innerHTML=weekday[(new Date().getDay()+count-1)%7];
 
-            day++;
+            count++;
         }
-    }
-    for (let i = 1; i <= 5; i++) {
-        document.getElementById("forecast" + i).innerHTML = hightempforecast[i].toFixed(2);
-        let tempdate = new Date(dates[i]);
-        let dayofweek = weekday[tempdate.getDay()];
-        document.getElementById("day" + i).innerHTML = dayofweek;
-
-        let pic = icon[i];
-        let imgsrc = "https://openweathermap.org/img/w/" + pic + ".png";
-        document.getElementById('dayicon' + i).src = imgsrc;
-    }
+            if(count==6){
+                break;
+            }
+        }
+    
+    
 }
