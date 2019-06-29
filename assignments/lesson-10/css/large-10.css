@@ -81,6 +81,9 @@ footer {
     text-align: center;
     background-color: #00b4b8;
     box-shadow: 0 0 50px #ffffff;
+    display: grid;
+    line-height: 2;
+    padding: 2%;
 
 }
 
