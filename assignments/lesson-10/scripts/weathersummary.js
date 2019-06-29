@@ -6,11 +6,11 @@ weatherRequest.send();
 weatherRequest.onload = function () {
     let weatherData = JSON.parse(weatherRequest.responseText);
 
-    document.getElementById("temp").innerHTML=weatherData.main.temp;
+    document.getElementById("temp").innerHTML= weatherData.main.temp;
     let alt = weatherData.weather[0].description;
-    document.getElementById("cc-alt").innerHTML =weatherData.weather[0].description;
-    document.getElementById("humid").innerHTML =weatherData.main.humidity;
-    document.getElementById("speed").innerHTML =weatherData.wind.speed;
+    document.getElementById("cc-alt").innerHTML = weatherData.weather[0].description;
+    document.getElementById("humid").innerHTML = weatherData.main.humidity;
+    document.getElementById("speed").innerHTML = weatherData.wind.speed;
 
 
     let t = weatherData.main.temp;

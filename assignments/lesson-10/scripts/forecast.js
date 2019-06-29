@@ -29,7 +29,7 @@ weatherforecast.onload = function () {
         }
     }
     for (let i = 1; i <= 5; i++) {
-        document.getElementById("forecast" + i).innerHTML=hightempforecast[i].toFixed(2);
+        document.getElementById("forecast" + i).innerHTML = hightempforecast[i].toFixed(2);
         let tempdate = new Date(dates[i]);
         let dayofweek = weekday[tempdate.getDay()];
         document.getElementById("day" + i).innerHTML = dayofweek;
