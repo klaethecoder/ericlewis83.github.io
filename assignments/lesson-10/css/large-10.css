@@ -68,12 +68,6 @@
 
 }
 
-footer {
-    text-align: center;
-    font-size: 20px;
-}
-
-/*Preston events*/
 .prestonevents {
     max-width: 300px;
     margin-top: 25px;
@@ -91,10 +85,13 @@ footer {
     font-weight: bold;
 
 }
+
 .prestonevents h3 {
     border-bottom: 1px solid #000000;
     text-align: center;
 }
 
-
-
+footer {
+    text-align: center;
+    font-size: 20px;
+}

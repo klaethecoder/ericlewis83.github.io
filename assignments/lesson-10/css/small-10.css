@@ -152,6 +152,9 @@ main-article {
     position: absolute;
     top: 20px;
     left: 20px;
+    box-shadow: 0 0 50px #ffffff;
+    padding: 20px;
+
 }
 
 p {
@@ -170,7 +173,6 @@ aside {
 
 footer {
     background-color: #00b4b8;
-    padding: 10px;
 }
 
 .grid {
