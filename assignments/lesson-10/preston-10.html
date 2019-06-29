@@ -46,13 +46,14 @@
                 <section class="weathersummary">
                     <h3>Weather Summary</h3>
                     <p>Current: Cloudy</p>
-                    <p>High:<span id="temperature">67</span>&deg;</p>
-                    <p>Wind speed:<span id="windspeed">5</span>mph</p>
-                    <p>Humidity: 50%</p>
+                    <p>High:<span id="temperature"></span>&deg;</p>
+                    <p>Wind speed:<span id="windspeed"></span>mph</p>
+                    <p>Humidity: </p>
                     <p> Windchill:<span id="windchill"></span></p>
                 </section>
             </div>
     
+            
             <section class="forecast">
                 <h3>5 Day Forecast</h3>
                 <table>
@@ -64,18 +65,9 @@
                             <th>Sat</th>
                             <th>Sun</th>
                         </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src="images/cloudy.png" alt="cloudy icon" class="forecast-image"><br>67&deg;F</td>
-                            <td><img src="images/rainy.png" alt="rainy icon" class="forecast-image"><br>63&deg;F</td>
-                            <td><img src="images/cloudy.png" alt="cloudy icon" class="forecast-image"><br>70&deg;F</td>
-                            <td><img src="images/sunny.png" alt="sunny icon" class="forecast-image"><br>76&deg;F</td>
-                            <td><img src="images/sunny.png" alt="sunny icon" class="forecast-image"><br>78&deg;F</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    </thead>   
             </section>
+
     
             <section class="main-article">
                 <article>
@@ -111,22 +103,15 @@
                         neque
                         adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse
                         potenti.
-                        Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
-                        Suspendisse
-                        in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
-                        vitae pharetra auctor, sem
-                    </p>
+                    
                 </article>
             </section>
             <article class="prestonevents">
-                <div class="eventsdiv">
                     <h3>Upcoming Events:</h3>
-                    <ul class="eventsul">
-                        <li class="eventsli"><span id="prestonevents"></span></li>
+                        <li class="eventsli"><span id="prestonevents"></span> </li>
                         <li class="eventsli"><span id="prestonevents1"></span></li>
                         <li class="eventsli"><span id="prestonevents2"></span></li>
                     </ul>
-                </div>
             </article>
         </div>
     </main>
@@ -158,8 +143,9 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <script src="scripts/town.js"></script>
     <script src="scripts/prestonevents.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/weathersummary.js"></script>
 
 </body>
 
