@@ -44,8 +44,29 @@
     .towndata {
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
 
+.forecast {
+    display: block;
+    text-align: center;
+}
 
+.forecast table {
+    margin: 0 auto;
+}
+
+.forecast-image th,
+td {
+    padding: 15px;
+    border: 1px solid #000;
+
+}
+
+.main-article img {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: auto;
 }
 
 .prestonevents {
@@ -74,4 +95,43 @@
 footer {
     text-align: center;
     font-size: 20px;
+}
+
+/*------------------Gallery---------------*/
+@media only screen and (min-width: 48em) {
+    .gallery {
+
+        margin-bottom: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        text-align: center;
+        font-size: 18px;
+        color: #0f0277
+    }
+
+    .gallery p {
+        display: inline;
+
+    }
+
+    .gallery img:hover {
+        box-shadow: 0 0 50px #1900fd;
+    }
+
+    .gallery img:active {
+        transition: transform .5s ease;
+        transform: scale(1.7);
+    }
+
+    #gallery {
+        width: 100%;
+
+    }
+
+    main,
+    footer,
+    aside {
+        max-width: 960px;
+        margin: 10px auto;
+    }
 }
