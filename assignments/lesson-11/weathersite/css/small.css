@@ -172,7 +172,8 @@ footer {
     background-color: #00b4b8;
     padding: 10px;
 }
-
+a{color:#000000;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr;
