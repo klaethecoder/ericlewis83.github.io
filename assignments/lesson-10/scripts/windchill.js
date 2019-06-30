@@ -5,5 +5,6 @@
 
  if (t <= 50 && s >= 3) {
      let windchill = Math.round(n * 100) / 100;
-     document.getElementById("chill").innerHTML = windchill;
- 
+     document.getElementById('windchill').innerHTML = windchill;
+ } else
+     document.getElementById('windchill').innerHTML = "N/A";
