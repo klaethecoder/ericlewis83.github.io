@@ -3,3 +3,4 @@ if (t <= 50 && s >= 3) {
     document.getElementById("chill").innerHTML = windchill;
 } else
     document.getElementById("chill").innerHTML = "N/A";
+   
