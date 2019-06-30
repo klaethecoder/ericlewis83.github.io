@@ -10,7 +10,7 @@ weatherRequest.onload = function () {
     document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
     document.getElementById("humidity").innerHTML = weatherData.main.humidity;
 
-   
+
 }
 
 function newFunction(weatherData) {
