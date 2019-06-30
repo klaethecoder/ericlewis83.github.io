@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather 4 U|Town of Preston|Weather Conditions and Forecast</title>
+    <meta name="description" content="Weather 4 U. We're on top of the weather for you!">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/weathericon.png" alt="Weathericon">
+        <div class="headings">
+            <h1>Weather 4 U</h1>
+            <div class="motto">We're on top of the weather for you!</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><button class="button" onclick="toggleMenu()">Menu</button></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="towndata">
+        </div>
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="herodiv">
+                <picture>
+                    <img src="images/heroimage.jpg" alt="Preston homes">
+                </picture>
+
+                <section class="weathersummary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently:<span id="currently"></span></p>
+                    <p>High:<span id="hitemp"></span>&deg;F</p>
+                    <p>Wind Chill:<span id="windchill"></span>&deg;F</p>
+                    <p>Humidity:<span id="humidity"></span>&#37;</p>
+                    <p>Wind Speed:<span id="windspeed"></span>mph</p>
+                </section>
+            </div>
+
+
+            <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="dayforecast1">Wed</th>
+                            <th id="dayforecast2">Thu</th>
+                            <th id="dayforecast3">Fri</th>
+                            <th id="dayforecast4">Sat</th>
+                            <th id="dayforecast5">Sun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="" id="imgforecast1" alt="cloudy icon" class="forecast-image"><br>
+                                <p id="degforecast1"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast2" alt="rainy icon" class="forecast-image"><br>
+                                <p id="degforecast2"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast3" alt="cloudy icon" class="forecast-image"><br>
+                                <p id="degforecast3"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast4" alt="sunny icon" class="forecast-image"><br>
+                                <p id="degforecast4"></p>&deg;F
+                            </td>
+                            <td><img src="" id="imgforecast5" alt="sunny icon" class="forecast-image"><br>
+                                <p id="degforecast5"></p>&deg;F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="main-article">
+                <article>
+                    <h3>Camping in nature</h3>
+                    <div class="acc">by Eric Lewis</div>
+                    <p>
+                        <picture>
+                            <source srcset="images/camping.jpg">
+                            <img class="acc" src="images/camping.jpg" alt="Tent by creek">
+                        </picture>
+                        Mixed up weather this week: Cloudy, rainy, and sunny. Good time to go camping for the weekend.
+                        Get out
+                        in nature and relax the mind, body, and soul
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                        cursus
+                        ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                        Praesent
+                        mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget
+                        nulla. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur
+                        sodales
+                        ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.
+                        In
+                        scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc
+                        egestas
+                        porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis
+                        quis
+                        ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod
+                        in,
+                        nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per
+                        conubia
+                        nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor
+                        neque
+                        adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse
+                        potenti.
+
+                </article>
+            </section>
+            <article class="prestonevents">
+                <h3>Upcoming Events:</h3>
+                <ul>
+                    <li class="eventsli"><span id="prestonevents"></span></li>
+                    <li class="eventsli"><span id="prestonevents1"></span></li>
+                    <li class="eventsli"><span id="prestonevents2"></span></li>
+                </ul>
+            </article>
+            </div>
+        </main>
+        <aside>
+            <div class="contactinfo">
+                <strong>Weather 4 U</strong>
+                <br><img class="smallesticon" src="images/pointer.png" alt="location pointer">&nbsp;30 N 1st E
+                <br>Preston, Id 83263
+                <br>
+                <br>Phone 1-800-Weather4U
+                <br>Email Weather4u@w4u.com
+                <br><br>
+                <img class=".small.icon" src="images/facebookimg.png" alt="facebook link">
+                <img class=".small.icon" src="images/pinterestimg.png" alt="pinterest link">
+                <img class=".small.icon" src="images/twitterimg.png" alt="twitter link">
+                <img class=".small.icon" src="images/whatsappimg.png" alt="whatsapp link">
+
+            </div>
+            <div class="map">
+                <img src="images/prestonmap.png" alt="preston map">
+            </div>
+        </aside>
+
+        <footer>
+
+            &copy; 2019 Weather 4 U|Eric Lewis<br>
+            <p>Attributions:<a href="https://www.openweathermap.org">Open Weather Map</a></p>
+            <span id="currentdate"></span>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/prestonevents.js"></script>
+        <script src="scripts/forecast.js"></script>
+        <script src="scripts/weathersummary.js"></script>
+        <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>

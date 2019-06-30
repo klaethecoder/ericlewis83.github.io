@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather 4 U|Town of Preston|Weather Conditions and Forecast</title>
+    <meta name="description" content="Weather 4 U. We're on top of the weather for you!">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/weathericon.png" alt="Weathericon">
+        <div class="headings">
+            <h1>Weather 4 U</h1>
+            <div class="motto">We're on top of the weather for you!</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><button class="button" onclick="toggleMenu()">Menu</button></li>
+            <li><a href="">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="stormForm">
+            <h1> Storm Report</h1>
+            <form method="get" action="thanks.html">
+
+                <div class="section">
+                    Personal Information</div>
+                <div class="subsection">
+                    <label>Full name:<input type="text" name="fullname" placeholder="Full Name" pattern="[A-z\s]{5,}"
+                            required autocomplete="off"></label>
+                    <label>Email: <input type="email" name="email" placeholder="youremail@email.com"
+                            autocomplete="off"></label>
+                    <label>Phone Number:<input type="tel" name="phone" required autocomplete="off"></label>
+                    <label>Zip code:<input type="number" name="zip" required autocomplete="off"></label>
+                </div>
+                <div class="section">
+                    Storm Report</div>
+                <div class="subsection">
+                </div>
+                <label>Storm Date: <input type="date" name="date"></label>
+                <label>Storm Type: <input type="text" name="stormtype" list="storm">
+
+                    <datalist id="storm">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+
+                </label>
+
+                <label>Storm Severity<br>
+                    1 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="sevsettings">10
+                    <datalist id="sevsettings">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </datalist>
+                </label>
+
+                <label>
+                    Storm Region:
+                    <select name="region">
+                        <option value="select" disabled selected>Select Region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Sugar City">Sugar City</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <fieldset>
+                    <legend> Are you in Danger?</legend>
+                    <div>
+                        <input type="radio" id="ymn1" name="ymn" value="+" checked>
+                        <label for="ymn1">yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ymn2" name="ymn" value="+-">
+                        <label for="ymn2">maybe</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ymn3" name="ymn" value="-">
+                        <label for="ymn3">no</label>
+                    </div>
+                </fieldset>
+
+                <div class="section">
+                    Additional Information</div>
+                <div class="subsection">
+                    <label>
+                        Comments:
+                        <textarea name="additionalInfo"></textarea>
+
+                    </label>
+                </div>
+
+                <input type="submit" value="Submit" class="submitButton">
+
+        </div>
+        </form>
+    </main>
+    <aside>
+        <div class="contactinfo">
+            <strong>Weather 4 U</strong>
+            <br><img class="smallesticon" src="images/pointer.png" alt="location pointer">&nbsp;30 N 1st E
+            <br>Preston, Id 83263
+            <br>
+            <br>Phone 1-800-Weather4U
+            <br>Email Weather4u@w4u.com
+            <br><br>
+            <img class=".small.icon" src="images/facebookimg.png" alt="facebook link">
+            <img class=".small.icon" src="images/pinterestimg.png" alt="pinterest link">
+            <img class=".small.icon" src="images/twitterimg.png" alt="twitter link">
+            <img class=".small.icon" src="images/whatsappimg.png" alt="whatsapp link">
+
+        </div>
+        <div class="map">
+            <img src="images/prestonmap.png" alt="preston map">
+        </div>
+    </aside>
+
+    <footer>
+
+        &copy; 2019 Weather 4 U|Attributions|Eric Lewis<br>
+        <span id="currentdate"></span>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+@media only screen and (min-width:48em) {
+
+    .logo {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .headertext {
+        margin-left: 4rem;
+    }
+
+
+
+    a:hover {
+        background-color: #eeff00;
+        color: #000;
+        border-bottom: 1px solid #fff;
+    }
+
+    .navigation {
+        font-size: 22px;
+    }
+
+
+    nav ul li:first-child {
+        display: none;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        margin-right: 1rem;
+    }
+
+    .navigation li a {
+        color: yellow;
+    }
+
+    .towndata {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+       
+
+    footer {
+        text-align: center;
+        font-size: 20px;
+    }
+}
