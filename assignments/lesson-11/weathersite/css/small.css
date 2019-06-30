@@ -232,13 +232,9 @@ footer {
 .thanks {
     width: 350px;
     padding: 30px;
+    margin: 30px;
     background: #FFF;
     border-radius: 25px 25px 25px 25px;
-}
-
-.stormForm .subsection {
-    width: 100%;
-    background: #F8F8F8;
 }
 
 .stormForm h1,
@@ -248,12 +244,6 @@ footer {
     margin: -30px -30px 30px -30px;
     border-radius: 10px 10px 0 0;
     color: #fff;
-}
-
-.stormForm label {
-    display: block;
-    color: #000000;
-    margin-bottom: 15px;
 }
 
 .stormForm input[type="text"],
@@ -270,13 +260,6 @@ footer {
     border: 2px solid #fff;
 }
 
-.stormForm input[type="radio"] {
-    box-sizing: border-box;
-    padding: 8px;
-    border-radius: 6px;
-    border: 2px solid #fff;
-}
-
 .stormForm textarea {
     display: block;
     box-sizing: border-box;
@@ -288,26 +271,10 @@ footer {
     height: 10rem;
 }
 
-#ymn1,
-#ymn2,
-#ymn3 {
-    margin-right: 1.5rem;
-    margin-left: .5rem;
-    color: #000000;
-}
-
 .stormForm .section {
     font: normal 20px 'Georgia', serif;
     color: #000000;
     margin-bottom: 5px;
-}
-
-.stormForm .section span {
-    background: #000000;
-    position: absolute;
-    border: 4px solid #fff;
-    font-size: 14px;
-    color: #fff;
 }
 
 .stormForm input[type="button"],
@@ -317,10 +284,7 @@ footer {
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
     color: #fff;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-    font: normal 30px 'Georgia', serif;
-    border: 1px solid #257C9E;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*end region*/
