@@ -44,10 +44,34 @@
     .towndata {
         grid-template-columns: 1fr 1fr 1fr;
     }
-       
 
-    footer {
-        text-align: center;
-        font-size: 20px;
-    }
+
+}
+
+.prestonevents {
+    max-width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #00b4b8;
+    box-shadow: 0 0 50px #ffffff;
+    line-height: 2;
+    padding: 2%;
+
+}
+
+.eventsli {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.prestonevents h3 {
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
 }

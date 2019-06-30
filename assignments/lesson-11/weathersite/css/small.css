@@ -36,6 +36,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin: 5px;
+}
+
 .logo {
     width: 75px;
     height: auto;
@@ -104,12 +108,27 @@ a:hover {
     font-style: italic;
 }
 
+.forecast table {
+    margin: auto;
+    text-align: center
+}
 
 main,
 footer,
 aside {
     max-width: 960px;
     margin: 10px auto;
+}
+
+main-article {
+    background-color: #eee;
+    border: 1px solid #bbb;
+}
+
+.main-article img {
+    margin: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .map img {
@@ -122,9 +141,31 @@ aside {
     clear: both;
 }
 
+.herodiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .contactinfo {
     clear: both;
     text-align: center;
+}
+
+
+.weathersummary {
+    border: 1px solid #000;
+    background-color: #15ff00;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: 0 0 50px #ffffff;
+    padding: 10px;
+
+}
+
+p {
+    margin: 6px;
 }
 
 footer {
@@ -167,3 +208,119 @@ footer {
     color: #000000;
     text-align: center;
 }
+
+/*gallery*/
+
+.gallery {
+    margin-bottom: 2em;
+    display: grid;
+
+}
+
+.gallery p {
+    display: none;
+}
+
+.gallery img {
+    box-shadow: none;
+}
+
+
+/*region Storm center form design*/
+
+.stormForm,
+.thanks {
+    width: 350px;
+    padding: 30px;
+    background: #FFF;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.stormForm .subsection {
+    width: 100%;
+    background: #F8F8F8;
+}
+
+.stormForm h1,
+.thanks h1 {
+    background: #0004ff;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+
+.stormForm label {
+    display: block;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.stormForm input[type="text"],
+.stormForm input[type="date"],
+.stormForm input[type="email"],
+.stormForm input[type="number"],
+.stormForm input[type="tel"],
+.stormForm select {
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+}
+
+.stormForm input[type="radio"] {
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+}
+
+.stormForm textarea {
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    margin-left: 15px;
+    width: 20rem;
+    height: 10rem;
+}
+
+#ymn1,
+#ymn2,
+#ymn3 {
+    margin-right: 1.5rem;
+    margin-left: .5rem;
+    color: #000000;
+}
+
+.stormForm .section {
+    font: normal 20px 'Georgia', serif;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.stormForm .section span {
+    background: #000000;
+    position: absolute;
+    border: 4px solid #fff;
+    font-size: 14px;
+    color: #fff;
+}
+
+.stormForm input[type="button"],
+.stormForm input[type="submit"] {
+
+    background: #2A88AD;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Georgia', serif;
+    border: 1px solid #257C9E;
+    font-size: 16px;
+}
+
+/*end region*/
