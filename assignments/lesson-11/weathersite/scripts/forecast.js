@@ -5,7 +5,6 @@ weatherforecast.send();
 
 weatherforecast.onload = function () {
     let forecastData = JSON.parse(weatherforecast.responseText);
-    console.log(forecastData);
 
     var weekday = new Array(7);
     weekday[0] = "Monday";
