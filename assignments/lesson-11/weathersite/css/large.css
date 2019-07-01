@@ -35,9 +35,6 @@
     text-align: center;
 }
 
-.forecast table {
-    margin: 0 auto;
-}
 
 .forecast-image th,
 td {
@@ -53,11 +50,18 @@ td {
     height: auto;
 }
 
-.prestonevents, .sodaspringsevents, .fishhavenevents {
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Town events*/
+.prestonevents,
+.sodaspringsevents,
+.fishhavenevents {
     max-width: 300px;
     margin-top: 25px;
     margin-bottom: 25px;
-    
     text-align: center;
     background-color: #00b4b8;
     box-shadow: 0 0 50px #ffffff;
@@ -72,15 +76,13 @@ td {
 
 }
 
-.prestonevents, .sodaspringsevents, .fishhavenevents h3 {
+.prestonevents,
+.sodaspringsevents,
+.fishhavenevents h3 {
     border-bottom: 1px solid #000000;
     text-align: center;
 }
 
-footer {
-    text-align: center;
-    font-size: 20px;
-}
 
 /*------------------Gallery---------------*/
 @media only screen and (min-width: 48em) {
@@ -106,17 +108,5 @@ footer {
     .gallery img:active {
         transition: transform .5s ease;
         transform: scale(1.7);
-    }
-
-    #gallery {
-        width: 100%;
-
-    }
-
-    main,
-    footer,
-    aside {
-        max-width: 960px;
-        margin: 10px auto;
     }
 }
