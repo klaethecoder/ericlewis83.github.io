@@ -208,24 +208,27 @@ a {
     text-align: center;
 }
 
+grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 /*gallery*/
 
 
-.gallery {
-    margin-bottom: 2em;
-    display: grid;
-
-}
-
-.gallery p {
-    display: none;
-}
-
-.gallery img {
-    box-shadow: none;
-}
-
-
+    .gallery {
+        margin-bottom: 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery p {
+        display: none;
+    }
+    
+    .gallery img {
+        box-shadow: none;
+    }
+    
 
 /*region Storm center form design*/
 
