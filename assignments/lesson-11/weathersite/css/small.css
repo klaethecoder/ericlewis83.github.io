@@ -50,7 +50,6 @@ nav {
 }
 
 .navigation {
-    list-style: none;
     text-align: center;
     display: flex;
     flex-direction: column;
