@@ -13,24 +13,8 @@
     }
 
 
-
-    a:hover {
-        background-color: #eeff00;
-        color: #000;
-        border-bottom: 1px solid #fff;
-    }
-
     .navigation {
         font-size: 22px;
-    }
-
-
-    nav ul li:first-child {
-        display: none;
-    }
-
-    .navigation li:first-child {
-        display: none;
     }
 
     .navigation li {
@@ -73,6 +57,7 @@ td {
     max-width: 300px;
     margin-top: 25px;
     margin-bottom: 25px;
+    
     text-align: center;
     background-color: #00b4b8;
     box-shadow: 0 0 50px #ffffff;
