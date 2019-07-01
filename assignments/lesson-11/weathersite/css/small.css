@@ -159,9 +159,8 @@ aside {
     position: absolute;
     top: 20px;
     left: 20px;
-    box-shadow: 0 0 50px #ffffff;
+    opacity: 1;
     padding: 10px;
-
 }
 
 p {
