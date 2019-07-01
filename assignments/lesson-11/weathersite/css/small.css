@@ -210,10 +210,6 @@ a {
 
 /*gallery*/
 
-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .gallery {
     margin-bottom: 2em;
