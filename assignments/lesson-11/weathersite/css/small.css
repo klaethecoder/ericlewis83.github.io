@@ -213,7 +213,7 @@ a {
 .gallery {
     margin-bottom: 2em;
     display: grid;
-
+    grid-template-columns: 1fr;
 }
 
 .gallery p {
@@ -223,6 +223,7 @@ a {
 .gallery img {
     box-shadow: none;
 }
+
 
 
 /*region Storm center form design*/
