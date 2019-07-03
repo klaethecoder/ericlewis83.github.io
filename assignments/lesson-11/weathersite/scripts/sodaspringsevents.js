@@ -3,11 +3,9 @@ const requestData = new XMLHttpRequest();
 requestData.open('GET', requestTownDataURL);
 requestData.responseType = 'json';
 requestData.send();
-
 requestData.onload = function () {
     let sodaspringsData = requestData.response;
     let towns = sodaspringsData['towns'];
-
     towns.forEach(town => {
         if (town.name == 'Soda Springs') {
             document.getElementById('sodaspringsevents').innerHTML = town.events[0];

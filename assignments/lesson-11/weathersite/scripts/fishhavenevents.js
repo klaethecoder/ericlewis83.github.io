@@ -3,11 +3,9 @@ const requestData = new XMLHttpRequest();
 requestData.open('GET', requestTownDataURL);
 requestData.responseType = 'json';
 requestData.send();
-
 requestData.onload = function () {
     let fishhavenData = requestData.response;
     let towns = fishhavenData['towns'];
-
     towns.forEach(town => {
         if (town.name == 'Fish Haven') {
             document.getElementById('fishhavenevents').innerHTML = town.events[0];

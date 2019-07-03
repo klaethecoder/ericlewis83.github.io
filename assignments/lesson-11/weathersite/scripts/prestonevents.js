@@ -3,11 +3,9 @@ const requestData = new XMLHttpRequest();
 requestData.open('GET', requestTownDataURL);
 requestData.responseType = 'json';
 requestData.send();
-
 requestData.onload = function () {
     let prestonData = requestData.response;
     let towns = prestonData['towns'];
-
     towns.forEach(town => {
         if (town.name == 'Preston') {
             document.getElementById('prestonevents').innerHTML = town.events[0];
