@@ -3,28 +3,21 @@
     .logo {
         width: 150px;
     }
-
     h1 {
         font-size: 2.5rem;
     }
-
     .headertext {
         margin-left: 4rem;
     }
-
-
     .navigation {
         font-size: 22px;
     }
-
     .navigation li {
         margin-right: 1rem;
     }
-
     .navigation li a {
         color: yellow;
     }
-
     .towndata {
         grid-template-columns: 1fr 1fr 1fr;
     }
