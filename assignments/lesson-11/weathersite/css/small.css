@@ -2,12 +2,10 @@
 * {
     padding: 1px;
 }
-
 body {
     font-size: 16px;
     background-color: #00b82e;
 }
-
 h1,
 h2,
 h3,
@@ -16,7 +14,6 @@ h5,
 h6 {
     font-family: 'Roboto', sans-serif;
 }
-
 header {
     background-color: #fff;
     display: flex;
@@ -24,45 +21,35 @@ header {
     box-shadow: 0 0 30px #777;
     justify-content: center;
 }
-
 .logo,
 .headings {
-
     vertical-align: middle;
     margin: 10px;
 }
-
 h2 {
     text-align: center;
 }
-
 h3 {
     margin: 5px;
 }
-
 .logo {
     width: 75px;
     height: auto;
 }
-
 nav {
     background-color: #0004ff;
 }
-
 .navigation {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-
 .navigation li:first-child {
     display: block;
 }
-
 .navigation li {
     display: none;
 }
-
 .navigation a {
     display: block;
     color: #fff;
@@ -70,86 +57,69 @@ nav {
     text-align: center;
     text-decoration: none;
 }
-
 .navigation a:hover {
     color: #000;
     background-color: #fff;
     font-weight: 700;
 }
-
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
      <ul class="navigation responsive">
      */
 .responsive li {
     display: block;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0px
 }
-
 a:hover {
     background-color: #eeff00;
     color: #fdfdfd;
     border-bottom: 1px solid #fff;
 }
-
-
 .active {
     background: rgb(0, 0, 0);
     color: #fff;
 }
-
 .motto {
     font-size: 18px;
     color: #013a0f;
     font-style: italic;
 }
-
 .forecast table {
     margin: auto;
     text-align: center
 }
-
 main,
 footer,
 aside {
     max-width: 960px;
     margin: 10px auto;
 }
-
 main-article {
     background-color: #eee;
     border: 1px solid #bbb;
 }
-
 .main-article img {
     width: 100%;
 }
-
 .map img {
     width: 100%;
     height: auto;
 }
-
 aside {
     display: block;
     clear: both;
 }
-
 .herodiv {
     position: relative;
     width: 100%;
     height: auto;
 }
-
 .contactinfo {
     clear: both;
     text-align: center;
 }
-
-
 .weathersummary {
     border: 1px solid #000;
     background-color: #15ff00;
@@ -160,40 +130,30 @@ aside {
     opacity: 0.7;
     padding: 10px;
     color: #0004ff;
-   
 }
-
 p {
     margin: 6px;
 }
-
 footer {
     background-color: #00b4b8;
     padding: 10px;
 }
-
 a {
     color: #000000;
 }
-
-
 /*Town data*/
 .towndata {
     display: grid;
     grid-template-columns: 1fr;
 }
-
-
 .towninfo {
     margin: 15px;
     box-shadow: 0px 0px 0px 5px #0004ff;
     text-align: center;
 }
-
 .townp {
     font-size: 1.2em;
 }
-
 .townp1 {
     font-size: 1.3em;
     font-style: italic;
@@ -201,37 +161,28 @@ a {
     padding: 10px;
     text-align: center;
 }
-
 .townh3 {
     font-size: 1.5em;
     color: #000000;
     text-align: center;
 }
-
 grid {
     display: grid;
     grid-template-columns: 1fr;
 }
 /*gallery*/
-
-
     .gallery {
         margin-bottom: 2em;
         display: grid;
         grid-template-columns: 1fr;
-    }
-    
+    }   
     .gallery p {
         display: none;
-    }
-    
+    }   
     .gallery img {
         box-shadow: none;
-    }
-    
-
+    }  
 /*region Storm center form design*/
-
 .stormForm,
 .thanks {
     width: 350px;
@@ -240,7 +191,6 @@ grid {
     background: #FFF;
     border-radius: 25px 25px 25px 25px;
 }
-
 .stormForm h1,
 .thanks h1 {
     background: #0004ff;
@@ -249,7 +199,6 @@ grid {
     border-radius: 10px 10px 0 0;
     color: #fff;
 }
-
 .stormForm input[type="text"],
 .stormForm input[type="date"],
 .stormForm input[type="email"],
@@ -263,7 +212,6 @@ grid {
     border-radius: 6px;
     border: 2px solid #fff;
 }
-
 .stormForm textarea {
     display: block;
     box-sizing: border-box;
@@ -274,21 +222,17 @@ grid {
     width: 20rem;
     height: 10rem;
 }
-
 .stormForm .section {
     font: normal 20px 'Georgia', serif;
     color: #000000;
     margin-bottom: 5px;
 }
-
 .stormForm input[type="button"],
 .stormForm input[type="submit"] {
-
     background: #2A88AD;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
 }
-
 /*end region*/

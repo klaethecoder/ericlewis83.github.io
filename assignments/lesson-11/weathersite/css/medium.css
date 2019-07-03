@@ -3,33 +3,26 @@
     .navigation li:first-child {
         display: none;
     }
-
     .navigation li {
         display: block;
         flex: 1 1 auto;
     }
-
     .navigation,
     .container {
         flex-direction: row;
     }
-
-
     aside {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-
     .map {
         margin-left: 30px;
     }
-
     .towndata {
         grid-template-columns: 1fr 1fr;
     }
-
     .gallery {
         display: grid;
         grid-template-columns:1fr 1fr;
