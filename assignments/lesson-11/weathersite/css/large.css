@@ -53,16 +53,14 @@ footer {
     box-shadow: 0 0 50px #ffffff;
     line-height: 2;
     padding: 30px;
-}
-.prestonevents{
     font-size: 1rem;
     font-weight: bold;
-}
+} 
 .prestonevents,
 .sodaspringsevents,
 .fishhavenevents h3 {
     border-bottom: 1px solid #000000;
-    text-align: center;
+    text-align: center; 
 }
 /*------------------Gallery---------------*/
 @media only screen and (min-width: 48em) {
