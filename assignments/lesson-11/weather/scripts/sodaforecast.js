@@ -1,9 +1,11 @@
 let weatherforecast = new XMLHttpRequest();
-let apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a79b147b7791f4c09f3c781da76d6580';
+let apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=a79b147b7791f4c09f3c781da76d6580';
 weatherforecast.open('GET', apiURL, true);
 weatherforecast.send();
+
 weatherforecast.onload = function () {
     let forecastData = JSON.parse(weatherforecast.responseText);
+}
     var weekday = new Array(7);
     weekday[0] = "Monday";
     weekday[1] = "Tuesday";
@@ -24,4 +26,3 @@ let count=1;
                 break;
             }
         }
-}
