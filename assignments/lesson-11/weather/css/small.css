@@ -24,7 +24,7 @@ main-article{background-color:#eee;border:1px solid #bbb}
 .map img{width:100%;height:auto}
 aside{display:block;clear:both}
 .herodiv{position:relative;width:100%;height:auto}
-.acc{margin: 6px; color:#0004ff;}
+.acc{margin:6px;color:#0004ff}
 .contactinfo{clear:both;text-align:center}
 .weathersummary{border:1px solid #000;background-color:#15ff00;position:absolute;top:20px;left:20px;box-shadow:0 0 50px #fff;opacity:.7;padding:10px;color:#0004ff}
 p{margin:6px}
@@ -36,6 +36,8 @@ a{color:#000}
 .townp1{font-size:1.3em;font-style:italic;color:#000;padding:10px;text-align:center}
 .townh3{font-size:1.5em;color:#000;text-align:center}
 grid{display:grid;grid-template-columns:1fr}
+.articlepicture{float:right;width:40%;height:auto;margin:2em 4em}
+.author{margin:6px;}
 .gallery{margin-bottom:2em;display:grid;grid-template-columns:1fr}
 .gallery p{display:none}
 .gallery img{box-shadow:none}
