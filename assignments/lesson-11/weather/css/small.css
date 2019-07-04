@@ -36,7 +36,7 @@ a{color:#000}
 .townp1{font-size:1.3em;font-style:italic;color:#000;padding:10px;text-align:center}
 .townh3{font-size:1.5em;color:#000;text-align:center}
 grid{display:grid;grid-template-columns:1fr}
-.articlepicture{float:right;width:40%;height:auto;margin:2em 4em}
+.articlepicture{float:right;width:40%;height:auto;margin:1em 1em}
 .author{margin:6px;}
 .gallery{margin-bottom:2em;display:grid;grid-template-columns:1fr}
 .gallery p{display:none}
