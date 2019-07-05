@@ -27,7 +27,7 @@ aside{display:block;clear:both}
 .acc{margin:6px;color:#000000;}
 .contactinfo{clear:both;text-align:center}
 .weathersummary{border:1px solid #000;background-color:#15ff00;position:absolute;top:20px;left:20px;box-shadow:0 0 50px #fff;opacity:.8;padding:10px; font-weight:bold;}
-p{margin:6px; font-style: bold;}
+p{margin:6px; font-weight: medium;}
 footer{background-color:#00b4b8;padding:10px}
 a{color:#000}
 .towndata{display:grid;grid-template-columns:1fr}
