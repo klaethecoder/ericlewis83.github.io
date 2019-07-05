@@ -15,6 +15,7 @@ weatherforecast.onload = function () {
     let count = 1;
     for (let i = 0; i < forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt.includes("18:00:00")) {
+            document.getElementById("hitemp").innerHTML = weatherData.main.temp_max + '&deg;F';
             document.getElementById('degforecast' + count).innerHTML = forecastData.list[i].main.temp_max;
             document.getElementById('imgforecast' + count).setAttribute('src', "https://openweathermap.org/img/w/" + forecastData.list[i].weather[0].icon + ".png");
             document.getElementById('dayforecast' + count).innerHTML = weekday[(new Date().getDay() + count - 1) % 7];
