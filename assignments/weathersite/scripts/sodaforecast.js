@@ -21,7 +21,6 @@ weatherforecast.onload = function () {
             count++;
         }
         if (count == 6) {
-            break;
-        }
+            break; }
     }
 }
