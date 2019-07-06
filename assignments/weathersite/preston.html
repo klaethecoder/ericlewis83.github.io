@@ -39,7 +39,9 @@
         <h2>Preston, Idaho</h2>
         <div class="herodiv">
             <picture>
-                <img src="images/heroimage.jpg" alt="Preston sign">
+                <source media="(max-width: 799px)" srcset="images/heroimgsmall.jpg">
+                <source media="(min-width: 800px)" srcset="images/heroimglarge.jpg">
+                <img src="images/heroimglarge.jpg" alt="Preston sign">
             </picture>
 
             <section class="weathersummary">
@@ -51,7 +53,7 @@
                 <p>Wind Speed:<span id="windspeed"></span>mph</p>
             </section>
         </div>
-<br>
+        <br>
         <section class="forecast">
             <h3>5 Day Forecast</h3>
             <table>
@@ -85,7 +87,7 @@
                 </tbody>
             </table>
         </section>
-<br><br>
+        <br><br>
         <section class="main-article">
             <article>
                 <h3>Camping in nature</h3>
