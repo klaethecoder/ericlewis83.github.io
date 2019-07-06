@@ -39,7 +39,9 @@
         <h2>Soda Springs, Idaho</h2>
         <div class="herodiv">
             <picture>
-                <img src="images/heroimage1.jpg" alt="Soda Springs">
+                <source media="(max-width: 799px)" srcset="images/heroimg3small.jpg">
+                <source media="(min-width: 800px)" srcset="images/heroimg3large.jpg">
+                <img src="images/heroimg3large.jpg" alt="Soda Springs">
             </picture>
 
             <section class="weathersummary">
@@ -91,10 +93,10 @@
                 <h3>5 Summer Fire Safety Tips</h3>
                 <div class="author"><strong>by Blogging team</strong></div>
                 <p>
-                <picture>
-                    <source srcset="images/grill.jpg">
-                    <img class="articlepicture" src="images/grill.jpg" alt="grilled food">
-                </picture>
+                    <picture>
+                        <source srcset="images/grill.jpg">
+                        <img class="articlepicture" src="images/grill.jpg" alt="grilled food">
+                    </picture>
                     Keep a bucket of water handy. If an ember floats out of your fire pit, or a log falls down from
                     your bonfire stack and sets nearby foliage, paper, or other flammable materials aflame, you
                     don’t want to be scrambling for a way to put the fire out. Having a bucket of water nearby is a
@@ -125,7 +127,7 @@
         </article>
 
     </main>
-   <br><br>
+    <br><br>
     <aside>
         <div class="contactinfo">
             <strong>Weather 4 U</strong>
