@@ -19,7 +19,7 @@ a:hover{background-color:#ef0;color:#fdfdfd;border-bottom:1px solid #fff}
 .motto{font-size:18px;color:#013a0f;font-style:italic}
 .forecast table{margin:auto;text-align:center}
 main,footer,aside{max-width:960px;margin:10px auto}
-main-article{background-color:#eee;border:3px solid #bbb; padding: 5px; margin: 20px;}
+main-article{background-color:#eee;border:1px solid #bbb;}
 .main-article img{width:100%}
 .map img{width:100%;height:auto}
 aside{display:block;clear:both}
@@ -27,7 +27,7 @@ aside{display:block;clear:both}
 .acc{margin:6px;color:#000000;}
 .contactinfo{clear:both;text-align:center}
 .weathersummary{border:1px solid #000;background-color:#15ff00;position:absolute;top:20px;left:20px;box-shadow:0 0 50px #fff;opacity:.8;padding:10px; font-weight:bold;}
-p{margin:6px; font-size: 17px;}
+p{margin:6px; font-size: 17px; border: 2px solid; padding: 5px; margin:20px;}
 footer{background-color:#00b4b8;padding:10px}
 a{color:#000}
 .towndata{display:grid;grid-template-columns:1fr}
