@@ -20,7 +20,7 @@ a:hover{background-color:#ef0;color:#fdfdfd;border-bottom:1px solid #fff}
 .forecast table{margin:auto;text-align:center}
 main,footer,aside{max-width:960px;margin:10px auto}
 .main-article img{width:100%}
-.main-article{display:inline-block;background-color:#ffffff;color:#000000;border-style:solid;}
+.main-article{background-color:#ffffff;color:#000000;border-style:solid;}
 .map img{width:100%;height:auto}
 aside{display:block;clear:both}
 .herodiv{position:relative;width:100%;height:auto}
