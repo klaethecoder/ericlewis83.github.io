@@ -17,11 +17,9 @@
 </head>
 
 <body>
-    <picture>
-        <source srcset="images/abor-large-01.svg" media="(max-width: 600px)">
-        <img class="hero-img" src="images/abor-large-02.svg" alt="A peaceful bench in the Inn Gardens">
-    </picture>
+
     <header>
+        <img src="images/templelogo" alt="Temple Inn & Suites logo" class="logo">
         <h1>Temple Inn & Suites</h1>
     </header>
 
@@ -38,7 +36,7 @@
     <main>
         <section>
             <div class="welcome-wrap">
-                <img id="welcome-image" src="images/temple1.jpg" alt="A view of the Temple from the hotel front.">
+                <img id="welcome-image" src="images/provotmpwtr.jpg" alt="Provo temple water fountain">
                 <div class="text-wrap">
                     <h2>Welcome to Temple Inn & Suites</h2>
 
@@ -52,8 +50,6 @@
             </div>
         </section>
 
-        <div class="hero-image">
-        </div>
         <div class="parallax parallax1">
             <form action="reservation.html"><button>Book Now</button></form>
         </div>
@@ -61,16 +57,14 @@
 
         <section>
             <h2>Featured Temple</h2>
-            <div class="featured-wrap">
-                <picture id="featuredImage">
-                    <source srcset="x.jpg" media="(max-width: 600px)">
-                    <img src="x" class="featured"
-                        alt="If this image is displayed the featured JSON data failed to load.">
-                </picture>
-                <h3 id="featuredTitle">Failed script</h3>
-                <p id="featuredDescription">Failed script</p>
-                <form action="temples.html"><button>More Temples</button></form>
-            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/provotmpsmall.jpg">
+                <source media="(min-width: 800px)" srcset="images/provotemple.jpg">
+                <img src="images/provotemple.jpg" alt="Provo temple">
+            </picture>
+
+            <form action="temples.html"><button>More Temples</button></form>
+
         </section>
 
 
@@ -78,7 +72,7 @@
 
     <footer>
         &copy;2019 Temple Inn & Suites | <a href="policies.html">Guest Policies</a>
-        | <p class="sub-footer"><a href="attributions.html">Attributions</a>|Eric Lewis</a></p>
+        <p class="sub-footer"><a href="attributions.html">Attributions</a> | Eric Lewis</p>
     </footer>
     <script src="scripts/hamburger.js"></script>
 </body>
