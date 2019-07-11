@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>Temple Inn & Suites | Home</title>
+    <meta name="description" content="Home of Temple Inn & Suites">
+    <link rel="stylesheet" href="https://ericlewis83.github.io/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="css/large.css">
+</head>
+
+<body>
+    <picture>
+        <source srcset="images/abor-large-01.svg" media="(max-width: 600px)">
+        <img class="hero-img" src="images/abor-large-02.svg" alt="A peaceful bench in the Inn Gardens">
+    </picture>
+    <header>
+        <h1>Temple Inn & Suites</h1>
+    </header>
+
+    <nav>
+       <ul class="navigation">
+            <li><button class="button" onclick="toggleMenu()">Menu</button></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="">Reservation</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="fade">
+        <section>
+            <div class="welcome-wrap">
+                <img id="welcome-image" src="images/temple1.jpg" alt="A view of the Temple from the hotel front.">
+                <div class="text-wrap">
+                    <h2>Welcome to Temple Inn & Suites</h2>
+                    
+                    <p>
+                        Our goal at Temple Inn and Suites is to make your stay as pleasant and comfortable as
+                        possible. We are conveniently located just outside Temple grounds in select locations to make your commute as short as possible. 
+                        Please visit our guest portal to learn more about services and more at a Temple Inn near you.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <div class="quote">&ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you
+                    rest...&rdquo; - Matthew 11:28</div>
+            </div>
+            <div class="parallax parallax1">
+                <form action="reservation.html"><button>Book Now</button></form>
+            </div>
+        </div>
+
+        <section>
+            <h2>Featured Temple</h2>
+            <div class="featured-wrap">
+                <picture id="featuredImage">
+                    <source srcset="x.jpg" media="(max-width: 600px)">
+                    <img src="x" class="featured"
+                        alt="If this image is displayed the featured JSON data failed to load.">
+                </picture>
+                <h3 id="featuredTitle">Failed script</h3>
+                <p id="featuredDescription">Failed script</p>
+                <form action="temples.html"><button>More Temples</button></form>
+            </div>
+        </section>
+
+        <div class="spotlight">
+            <span class="prev" onclick="plusSlides(-1)">&#9664;</span> <span class="next"
+                onclick="plusSlides(1)">&#9654;</span>
+
+            <div class="spotlight-head">
+                <h2>Featured Services</h2>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/family-history-small.jpg" media="(max-width: 600px)">
+                    <img src="images/family-history-large.jpg"
+                        alt="A sister missionary helps woman to find geneology information in the computer lab">
+                </picture>
+                <p>Our Family History Research lab provides guests with computers, free wifi, and family history
+                    consultants on site. Available as a special service for all guests.</p>
+                    <form action="guest-portal.html"><button>Learn More</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/breakfast-small.jpg" media="(max-width: 600px)">
+                    <img src="images/breakfast-large.jpg" alt="A large parfait with fresh oats">
+                </picture>
+                <p>Free breakfast services are included with every room and suite. We have a wide range of healthy
+                    breakfast options available, including gluten, dairy, and sugar free. Let your Temple Inn & Suites
+                    representative know if you or anyone in your party have any dietary restrictions so that we can
+                    accommodate you.</p>
+                    <form action="guest-portal.html"><button>Learn More</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture>
+                    <source srcset="images/change-service-small.jpg" media="(max-width: 600px)">
+                    <img src="images/change-service-large.jpg" alt="A line of fresh clean laundry">
+                </picture>
+                <p>Temple Inn & Suites provides free of charge special changing rooms and wash services for guests who
+                    may have travelled a long distance and need to freshen up before entering the House of the Lord.</p>
+                    <form action="guest-portal.html"><button>Learn More</button></form>
+            </div>
+        </div>
+        <br>
+        <div class="dotbox">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+        &copy;2019 Temple Inn & Suites | <a href="policies.html">Guest
+            Policies</a>
+        <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
+                href="https://kaqurei.github.io/">Destyni Shirley</a></p>
+        <script src="js/main-script.js"></script>
+    </footer>
+
+</body>
+
+</html>
