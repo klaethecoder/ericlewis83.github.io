@@ -23,18 +23,144 @@
         <h1>Temple Inn & Suites</h1>
     </header>
 
+    <nav>
+        <ul class="navigation">
+            <li><button class="button" onclick="toggleMenu()">Menu</button></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html" class="active">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Book Your Reservation</h2>
+
+            <form class="contact-form" action="thanks.html">
+                <h3>Reservation Inquiry</h3>
+                <ul class="form-shell">
+                    <li>
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" minlength="2" maxlength="50" size="20" required
+                            pattern="[A-Z][A-Za-z' -]+">
+                    </li>
+                    <li>
+                        <label for="phone">Phone*</label>
+                        <input type="tel" id="phone" name="tel" required minlength="10">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="state">State</label>
+                        <input type="state" id="state" name="state">
+                    </li>
+                    <li>
+                        <label for="country">Country</label>
+                        <input type="country" id="country" name="country">
+                    </li>
+
+                    <li>
+                        <label for="area">Area:</label>
+                        <select id="area">
+                            <option selected disabled>Select Area...</option>
+                            <option value="boise">Boise temple</option>
+                            <option value="idahofalls">Idaho falls temple</option>
+                            <option value="provo">Provo temple</option>
+                            <option value="salt lake">Salt Lake city temple</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+
+                    </li>
+                    <li>
+                        <p>Dates of Interest (Range)</p>
+                    <li>
+                        <label for="startDate">From*</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                    </li>
+                    <li>
+                        <label for="endDate">To*</label>
+                        <input type="date" id="endDate" name="endDate" max="2020-12-31" required>
+                    </li>
+                    <li>
+                        <p>Rooms or Suite?</p>
+                        <ul class="form-skin">
+                            <li>
+                                <label for="room">Room(s)</label>
+                                <input type="radio" id="room" name="choice" value="room" checked>
+                            </li>
+                            <li>
+                                <label for="suite">Suite</label>
+                                <input type="radio" id="suite" name="choice" value="suite">
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p>Number of expected guests (estimate)</p>
+                        <ul class="form-skin">
+                            <li>
+                                <label for="option1">1 - 2</label>
+                                <input type="radio" id="option1" name="guests" value="1 - 2" checked>
+                            </li>
+                            <li>
+                                <label for="option2">3 - 4</label>
+                                <input type="radio" id="option2" name="guests" value="3 - 4">
+                            </li>
+                            <li>
+                                <label for="option3">5 - 8</label>
+                                <input type="radio" id="option3" name="guests" value="5-8">
+                            </li>
+                            <li>
+                                <label for="option4">9+</label>
+                                <input type="radio" id="option4" name="guests" value="9+">
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p>Preferred method of contact? (Please check all that apply)</p>
+                        <ul class="form-meat">
+                            <li>
+                                <input type="checkbox" id="email-pref">
+                                <label for="email-pref">Email</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="phone-pref">
+                                <label for="phone-pref">Phone</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="text-pref">
+                                <label for="text-pref">Text</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="other-pref">
+                                <label for="other-pref">Other (Please specify in comments)</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
 
 
 
 
 
 
-    
     <footer>
-            &copy;2019 Temple Inn & Suites | <a href="policies.html">Guest Policies</a>
-            <p class="sub-footer"><a href="attributions.html">Attributions</a> | Eric Lewis</p>
-        </footer>
-        <script src="scripts/hamburger.js"></script>
-    </body>
-    
-    </html>
+        &copy;2019 Temple Inn & Suites | <a href="policies.html">Guest Policies</a>
+        <p class="sub-footer"><a href="attributions.html">Attributions</a> | Eric Lewis</p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+</body>
+
+</html>
