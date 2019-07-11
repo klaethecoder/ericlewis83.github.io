@@ -67,14 +67,15 @@
                         <select id="area">
                             <option selected disabled>Select Area...</option>
                             <option value="boise">Boise temple</option>
-                            <option value="idahofalls">Idaho falls temple</option>
+                            <option value="idahofalls">Idaho Falls temple</option>
                             <option value="provo">Provo temple</option>
-                            <option value="salt lake">Salt Lake city temple</option>
+                            <option value="salt lake">Salt Lake City temple</option>
                         </select>
                     </li>
                     <li>
                         <label for="message">Message</label>
-
+                        <textarea name="message" id="message" rows="6"></textarea>
+                    </li>
                     </li>
                     <li>
                         <p>Dates of Interest (Range)</p>
@@ -87,7 +88,7 @@
                         <input type="date" id="endDate" name="endDate" max="2020-12-31" required>
                     </li>
                     <li>
-                        <p>Rooms or Suite?</p>
+                        <p>Room or Suite?</p>
                         <ul class="form-skin">
                             <li>
                                 <label for="room">Room(s)</label>
@@ -101,7 +102,7 @@
                     </li>
 
                     <li>
-                        <p>Number of expected guests (estimate)</p>
+                        <p>Number of guests</p>
                         <ul class="form-skin">
                             <li>
                                 <label for="option1">1 - 2</label>
@@ -123,38 +124,12 @@
                     </li>
 
                     <li>
-                        <p>Preferred method of contact? (Please check all that apply)</p>
-                        <ul class="form-meat">
-                            <li>
-                                <input type="checkbox" id="email-pref">
-                                <label for="email-pref">Email</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="phone-pref">
-                                <label for="phone-pref">Phone</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="text-pref">
-                                <label for="text-pref">Text</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="other-pref">
-                                <label for="other-pref">Other (Please specify in comments)</label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
                         <button type="submit">Submit</button>
                     </li>
                 </ul>
             </form>
         </section>
     </main>
-
-
-
-
-
 
     <footer>
         &copy;2019 Temple Inn & Suites | <a href="policies.html">Guest Policies</a>
