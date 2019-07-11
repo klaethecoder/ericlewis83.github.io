@@ -39,27 +39,57 @@
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-        <div class="contactInfo" id="contactInfo">
-            <h4>Contact Information</h4>
-            <p>Temple Inn & Suites<br>
-                4810 Montgomery Ln #500<br>
-                Bethesda, MD 20814</p>
-        </div>
-        <div id="contactUs">
-            <form action="thankyou.html">
-                <fieldset>
-                    <label class="top">First Name*<input type="text" id="fname" name="firstname" placeholder="John"
-                            required></label>
-                    <label class="top">Last Name*<input type="text" id="lname" name="lastname" placeholder="Doe"
-                            required></label>
-                    <label class="top">email*<input type="email" id="email" name="email" placeholder="johndoe@gmail.com"
-                            required></label>
-                    <label class="top">Message<textarea rows="20" cols="75"
-                            placeholder="Your Message. .."></textarea></label>
-                    <input class="submitBtn" type="submit" value="Send Your Message">
-                </fieldset>
+        <div id="contact-us-form">
+            <h3>Contact Form</h3>
+            <form class="contact-form" action="thanks.html">
+                <ul class="form-shell">
+                    <li>
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" minlength="2" maxlength="50" size="20" required
+                            pattern="[A-Z][A-Za-z' -]+">
+                    </li>
+                    <li>
+                        <label for="phone">Phone*</label>
+                        <input type="tel" id="phone" name="tel" required minlength="10">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="message">Message (max 500 characters)</label>
+                        <textarea name="message" id="message" rows="6" maxlength="500"></textarea>
+                            
+                    </li>
+                    <li>
+                        <p>Preferred method of contact? (Please check all that apply)</p>
+                        <ul class="form-meat">
+                            <li>
+                                <input type="checkbox" id="email-pref">
+                                <label for="email-pref">Email</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="phone-pref">
+                                <label for="phone-pref">Phone</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="text-pref">
+                                <label for="text-pref">Text</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="other-pref">
+                                <label for="other-pref">Other (Please specify in comments)</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
             </form>
         </div>
+
+        </section>
     </main>
 
     <footer>
