@@ -1,7 +1,7 @@
-var sectionSe = document.getElementById('seattle');
-var sectionSp = document.getElementById('spokane');
-var sectionCr = document.getElementById('columbiaRiver');
-var sectionPo = document.getElementById('portland');
+var sectionSe = document.getElementById('boise');
+var sectionSp = document.getElementById('idahofalls');
+var sectionCr = document.getElementById('provo');
+var sectionPo = document.getElementById('saltlake');
 var requestURL = 'https://www.churchofjesuschrist.org/temples/list';
 
 var request = new XMLHttpRequest();
@@ -11,12 +11,12 @@ request.send();
 request.onload = function () {
     var templeInfo = request.response;
     console.log(templeInfo);
-    populateSeattle(templeInfo);
-    populateSpokane(templeInfo);
-    populateColumbiaRiver(templeInfo);
-    populatePortland(templeInfo);
+    populateBoise(templeInfo);
+    populateIdahoFalls(templeInfo);
+    populateProvo(templeInfo);
+    populateSaltLake(templeInfo);
 }
-function populateSeattle(templeInfo) {
+function populateBoise(templeInfo) {
     var templeSe = templeInfo['temples'];
    
     for (var i = 0; i < templeSe.length; i++) {
@@ -31,7 +31,7 @@ function populateSeattle(templeInfo) {
         var myPara7 = document.createElement('p');
         var myPara8 = document.createElement('p');
 
-        if (templeSe[0].name ==='Seattle') {
+        if (templeSe[0].name ==='Boise') {
             myH2.textContent = templeSe[0].name;
             myPara1.textContent = 'Address: ' + templeSe[0].address;
             myPara2.textContent = 'Telephone: ' + templeSe[0].telephone;
@@ -56,7 +56,7 @@ function populateSeattle(templeInfo) {
     sectionSe.appendChild(myArticle);
 }
 
-function populateSpokane(templeInfo) {
+function populateIdahoFalls(templeInfo) {
     var templeSp = templeInfo['temples'];
    
     for (var i = 0; i < templeSp.length; i++) {
@@ -71,7 +71,7 @@ function populateSpokane(templeInfo) {
         var myPara7 = document.createElement('p');
         var myPara8 = document.createElement('p');
 
-        if (templeSp[1].name ==='Spokane') {
+        if (templeSp[1].name ==='IdahoFalls') {
             myH2.textContent = templeSp[1].name;
             myPara1.textContent = 'Address: ' + templeSp[1].address;
             myPara2.textContent = 'Telephone: ' + templeSp[1].telephone;
@@ -95,7 +95,7 @@ function populateSpokane(templeInfo) {
 
     sectionSp.appendChild(myArticle);
 }
-function populateColumbiaRiver(templeInfo) {
+function populateProvo(templeInfo) {
     var templeCr = templeInfo['temples'];
    
     for (var i = 0; i < templeCr.length; i++) {
@@ -110,7 +110,7 @@ function populateColumbiaRiver(templeInfo) {
         var myPara7 = document.createElement('p');
         var myPara8 = document.createElement('p');
 
-        if (templeCr[2].name ==='Columbia River') {
+        if (templeCr[2].name ==='Provo') {
             myH2.textContent = templeCr[2].name;
             myPara1.textContent = 'Address: ' + templeCr[2].address;
             myPara2.textContent = 'Telephone: ' + templeCr[2].telephone;
@@ -134,7 +134,7 @@ function populateColumbiaRiver(templeInfo) {
 
     sectionCr.appendChild(myArticle);
 }
-function populatePortland(templeInfo) {
+function populateSaltLake(templeInfo) {
     var templePo = templeInfo['temples'];
    
     for (var i = 0; i < templePo.length; i++) {
@@ -149,7 +149,7 @@ function populatePortland(templeInfo) {
         var myPara7 = document.createElement('p');
         var myPara8 = document.createElement('p');
 
-        if (templePo[3].name ==='Portland') {
+        if (templePo[3].name ==='Salt Lake') {
             myH2.textContent = templePo[3].name;
             myPara1.textContent = 'Address: ' + templePo[3].address;
             myPara2.textContent = 'Telephone: ' + templePo[3].telephone;
