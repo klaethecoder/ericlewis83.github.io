@@ -2,7 +2,7 @@ var sectionSe = document.getElementById('boise');
 var sectionSp = document.getElementById('idahofalls');
 var sectionCr = document.getElementById('provo');
 var sectionPo = document.getElementById('saltlake');
-var requestURL = 'https://www.churchofjesuschrist.org/temples/list';
+var requestURL = 'https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng';
 
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
