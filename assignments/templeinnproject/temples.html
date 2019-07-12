@@ -34,22 +34,93 @@
         </ul>
     </nav>
     <main>
-
-
-
-
-
-        
-
-
+            
+            <script>
+                    $("#seattle > h2").click(function(){
+                        $("p").toggle();
+                    });
+                </script>
+                <main class=temples>
+                    <section id="seattle">
+                        <img src="images/seatlle-temple800.jpg" alt="Seattle Washington LDS Temple" class="templeImage">
+                        <section id="seattleWeather">
+                            <h3>Seattle's Weather</h3>
+                            <hr>
+                            <div class="weatherdetails">
+                                <p class="label">Currently:</p>
+                                <p class="value" id="currentlySe">Sunny</p>
+                                <p class="label">Temperature: </p>
+                                <p class="value" id="tempSe"><span id="degSe">76</span> &deg;F</p>
+                                <p class="label">Humidity:</p>
+                                <p class="value" id="humiditySe">69%</p>
+                                <p class="label">Wind Speed:</p>
+                                <p class="value" id="windspeedSe"><span id="mphSe">5</span> mph</p>
+                            </div>
+                        </section>
+                    </section>
+                    <section id="spokane">
+                        <img src="images/spokane-temple800.jpg" alt="Spokane Washington LDS Temple" class="templeImage">
+                        <section id="spokaneWeather">
+                            <h3>Spokane's Weather</h3>
+                            <hr>
+                            <div class="weatherdetails">
+                                <p class="label">Currently:</p>
+                                <p class="value" id="currentlySp">Sunny</p>
+                                <p class="label">Temperature:</p>
+                                <p class="value" id="tempSp"><span id="degSp">76</span> &deg;F</p>
+                                <p class="label">Humidity:</p>
+                                <p class="value" id="humiditySp">69%</p>
+                                <p class="label">Wind Speed:</p>
+                                <p class="value" id="windspeedSp"><span id="mphSp">5</span> mph</p>
+                            </div>
+                        </section>
+                    </section>
+                    <section id="columbiaRiver">
+                        <img src="images/columbia-river-temple800.jpg" alt="Columbia River Washington LDS Temple" class="templeImage">
+                        <section id="columbiaRiverWeather">
+                            <h3>Richland's Weather</h3>
+                            <hr>
+                            <div class="weatherdetails">
+                                <p class="label">Currently:</p>
+                                <p class="value" id="currentlyCr">Sunny</p>
+                                <p class="label">Temperature:</p>
+                                <p class="value" id="tempCr"><span id="degCr">76</span> &deg;F</p>
+                                <p class="label">Humidity:</p>
+                                <p class="value" id="humidityCr">69%</p>
+                                <p class="label">Wind Speed:</p>
+                                <p class="value" id="windspeedCr"><span id="mphCr">5</span> mph</p>
+                            </div>
+                        </section>
+                    </section>
+                    <section id="portland">
+                        <img src="images/portland-temple-far800.jpg" alt="Portland Oregon LDS Temple" class="templeImage">
+                        <section id="portlandWeather">
+                            <h3>Portland's Weather</h3>
+                            <hr>
+                            <div class="weatherdetails">
+                                <p class="label">Currently:</p>
+                                <p class="value" id="currentlyPo">Sunny</p>
+                                <p class="label">Temperature:</p>
+                                <p class="value" id="tempPo"><span id="degPo">76</span> &deg;F</p>
+                                <p class="label">Humidity:</p>
+                                <p class="value" id="humidityPo">69%</p>
+                                <p class="label">Wind Speed:</p>
+                                <p class="value" id="windspeedPo"><span id="mphPo">5</span> mph</p>
+                            </div>
+                        </section>
+                    </section>
+                </main>
 
 
       
         <footer>
-                &copy;2019 Temple Inn & Suites | <a href="policies.html">Guest Policies</a>
-                <p class="sub-footer"><a href="attributions.html">Attributions</a> | Eric Lewis</p>
+                &copy;2019 Eric Lewis | Temple Inn & Suites |<a href="policies.html">Guest Policies</a>
+                <br><a href="attributions.html">Attributions</a> Weather data obtained via <a href="https://openweathermap.org"></a>
+              
             </footer>
             <script src="scripts/hamburger.js"></script>
+            <script src="scripts/templeInfo.js"></script>
+            <script src="scripts/weatherSummary.js"></script>
         </body>
         
         </html>
